@@ -1,0 +1,3910 @@
+{
+  "building": {
+    "name": "Luminara",
+    "address": "Ipeirou 22, Galatsi",
+    "certification": "LEED Platinum",
+    "masterToken": "lm-master-2026",
+    "categories": [
+      "Structure & Envelope",
+      "MEP - Mechanical, Electrical, Plumbing",
+      "Interior Finishes",
+      "Doors, Windows & Openings",
+      "Building-Wide Systems",
+      "Handover Sequence"
+    ],
+    "shared": {
+      "elevator": {
+        "supplier": "Kleeman",
+        "install": "2026-04-27",
+        "end": "2026-05-09"
+      },
+      "pv_battery": {
+        "start": "2026-06-08",
+        "end": "2026-07-22"
+      },
+      "common_areas": {
+        "start": "2026-05-08",
+        "end": "2026-08-07"
+      },
+      "facade": {
+        "start": "2026-05-04",
+        "end": "2026-05-17",
+        "note": "Painted or PVC - TBD"
+      },
+      "exterior_lighting": {
+        "start": "2026-05-08",
+        "end": "2026-07-22"
+      }
+    },
+    "version": "2.0",
+    "emailFrom": "orpheus@emanatis.com",
+    "emailNotify": true
+  },
+  "taskTemplate": [
+    {
+      "sec": "Structure & Envelope"
+    },
+    {
+      "id": "t1",
+      "nm": "Structural / Shell",
+      "cat": 0
+    },
+    {
+      "id": "t2",
+      "nm": "Waterproofing & Insulation",
+      "cat": 0
+    },
+    {
+      "id": "t16",
+      "nm": "Balcony Railings & Glazing",
+      "cat": 0
+    },
+    {
+      "id": "t15",
+      "nm": "Exterior Facade / Painting",
+      "cat": 0
+    },
+    {
+      "sec": "MEP - Mechanical, Electrical, Plumbing"
+    },
+    {
+      "id": "hvac",
+      "nm": "HVAC / Multi-Floor",
+      "cat": 1
+    },
+    {
+      "id": "hrv",
+      "nm": "HRV Energy Recovery",
+      "cat": 1
+    },
+    {
+      "id": "t10",
+      "nm": "Plumbing - Final Connections",
+      "cat": 1
+    },
+    {
+      "id": "t11",
+      "nm": "Electrical - Final 50%",
+      "cat": 1
+    },
+    {
+      "id": "t19",
+      "nm": "Fire Safety Systems",
+      "cat": 1
+    },
+    {
+      "id": "t20",
+      "nm": "Security / Intercom / Smart Home",
+      "cat": 1
+    },
+    {
+      "sec": "Interior Finishes"
+    },
+    {
+      "id": "t6",
+      "nm": "Drywall - Close Second Face",
+      "cat": 2
+    },
+    {
+      "id": "t7",
+      "nm": "Flooring",
+      "cat": 2
+    },
+    {
+      "id": "t8",
+      "nm": "Kitchen Units & Countertops",
+      "cat": 2
+    },
+    {
+      "id": "t9",
+      "nm": "Bathroom Fixtures & Fittings",
+      "cat": 2
+    },
+    {
+      "id": "t14",
+      "nm": "Interior Painting",
+      "cat": 2
+    },
+    {
+      "sec": "Doors, Windows & Openings"
+    },
+    {
+      "id": "t4",
+      "nm": "Exterior Doors",
+      "cat": 3
+    },
+    {
+      "id": "t5",
+      "nm": "Interior Doors",
+      "cat": 3
+    },
+    {
+      "id": "t3",
+      "nm": "Windows & Exterior Glazing",
+      "cat": 3
+    },
+    {
+      "sec": "Building-Wide Systems"
+    },
+    {
+      "id": "t13",
+      "nm": "Elevator - Kleeman",
+      "cat": 4
+    },
+    {
+      "id": "t18",
+      "nm": "Parking / Basement / EV Charging",
+      "cat": 4
+    },
+    {
+      "id": "t17",
+      "nm": "Common Areas",
+      "cat": 4
+    },
+    {
+      "id": "pv",
+      "nm": "Photovoltaic & Battery",
+      "cat": 4
+    },
+    {
+      "id": "pent",
+      "nm": "7th Floor / Penthouse Structure",
+      "cat": 4
+    },
+    {
+      "sec": "Handover Sequence"
+    },
+    {
+      "id": "t24",
+      "nm": "Deep Clean & Blow-Door Test",
+      "cat": 5
+    },
+    {
+      "id": "t23",
+      "nm": "Final Inspections & Permits",
+      "cat": 5
+    },
+    {
+      "id": "t22",
+      "nm": "LEED Certification Submission",
+      "cat": 5
+    },
+    {
+      "id": "t21",
+      "nm": "Exterior Lighting & Grounds",
+      "cat": 5
+    }
+  ],
+  "units": {
+    "1a": {
+      "name": "Gaia",
+      "floor": "1",
+      "size_m2": 63,
+      "client": "Artemis Kokorogianni",
+      "token": "lm-1a-gaia-2026",
+      "handover": "Mid-Sept.",
+      "handoverDate": "2026-09-19",
+      "notes": {
+        "smartHome": "All smart home items ordered. Client configuration session required prior to move-in. Client must be present.",
+        "leed": "Certification submitted as complete package at end of construction. Energy audits at 6mo, 12mo, 3yr, 5yr.",
+        "pendingdecision": "Interior paint colours to be selected during bathroom fixtures meeting.",
+        "kitchendesignandchoi": "Client is required to choose kitchen. Delivery timeline after kitchen order is 2 to 3 months from manufacturer.",
+        "floorselection": "Client must choose flooring",
+        "bathroomfixturesandt": "Bathroom fixtures and tile selection required"
+      },
+      "tasks": {
+        "t1": {
+          "st": "complete",
+          "s": "2026-01-01",
+          "e": "2026-03-15",
+          "nt": "Concrete, masonry, openings"
+        },
+        "t2": {
+          "st": "pending",
+          "s": "2026-04-25",
+          "e": "2026-06-09",
+          "nt": "Exterior + balcony + wet areas"
+        },
+        "t16": {
+          "st": "pending",
+          "s": "2026-06-26",
+          "e": "2026-07-31",
+          "nt": "Exalco glass railings"
+        },
+        "t15": {
+          "st": "pending",
+          "s": "2026-06-22",
+          "e": "2026-07-31",
+          "nt": "Painted or PVC - TBD"
+        },
+        "hvac": {
+          "st": "inprogress",
+          "s": "2026-03-03",
+          "e": "2026-04-27",
+          "nt": "UFH, heat pump, FCUs - unblocks flooring"
+        },
+        "hrv": {
+          "st": "inprogress",
+          "s": "2026-02-17",
+          "e": "2026-04-01",
+          "nt": "Ceiling units + ducting"
+        },
+        "t10": {
+          "st": "inprogress",
+          "s": "2026-05-04",
+          "e": "2026-06-13",
+          "nt": "After HVAC + flooring"
+        },
+        "t11": {
+          "st": "inprogress",
+          "s": "2026-05-24",
+          "e": "2026-07-18",
+          "nt": "Switches, panels, smart home, lighting"
+        },
+        "t19": {
+          "st": "pending",
+          "s": "2026-07-18",
+          "e": "2026-07-31",
+          "nt": "Smoke, extinguishers, emergency lighting"
+        },
+        "t20": {
+          "st": "pending",
+          "s": "2026-07-07",
+          "e": "2026-07-31",
+          "nt": "Phased - unit complete April"
+        },
+        "t6": {
+          "st": "inprogress",
+          "s": "2026-05-29",
+          "e": "2026-07-20",
+          "nt": "After plumbing + electrical rough-in"
+        },
+        "t7": {
+          "st": "critical",
+          "s": "2026-05-14",
+          "e": "2026-06-24",
+          "nt": "After HVAC complete - client chosen"
+        },
+        "t8": {
+          "st": "critical",
+          "s": "2026-07-10",
+          "e": "2026-07-31",
+          "nt": "4 days - after flooring complete"
+        },
+        "t9": {
+          "st": "critical",
+          "s": "2026-05-20",
+          "e": "2026-06-05",
+          "nt": "Selection meeting needed."
+        },
+        "t14": {
+          "st": "pending",
+          "s": "2026-06-24",
+          "e": "2026-08-01",
+          "nt": "4 days - after windows installed"
+        },
+        "t4": {
+          "st": "pending",
+          "s": "2026-06-25",
+          "e": "2026-07-04",
+          "nt": "Ordered - delivery early April"
+        },
+        "t5": {
+          "st": "pending",
+          "s": "2026-07-15",
+          "e": "2026-07-26",
+          "nt": "Ordered - 2 days install"
+        },
+        "t3": {
+          "st": "pending",
+          "s": "2026-06-15",
+          "e": "2026-07-30",
+          "nt": "Exalco - delivery end April, 5 days"
+        },
+        "t13": {
+          "st": "pending",
+          "s": "2026-05-18",
+          "e": "2026-06-10",
+          "nt": ""
+        },
+        "t18": {
+          "st": "inprogress",
+          "s": "2026-02-22",
+          "e": "2026-04-22",
+          "nt": ""
+        },
+        "t17": {
+          "st": "pending",
+          "s": "2026-06-25",
+          "e": "2026-11-02",
+          "nt": "Lobby, hallways, stairwell"
+        },
+        "pv": {
+          "st": "pending",
+          "s": "2026-09-03",
+          "e": "2026-10-01",
+          "nt": "Does not affect unit delivery"
+        },
+        "pent": {
+          "st": "pending",
+          "s": "2026-04-29",
+          "e": "2026-05-28",
+          "nt": "160sqm maisonette - independent"
+        },
+        "t24": {
+          "st": "pending",
+          "s": "2026-08-26",
+          "e": "2026-09-20",
+          "nt": "1 week prior to handover"
+        },
+        "t23": {
+          "st": "pending",
+          "s": "2026-09-01",
+          "e": "2026-09-11",
+          "nt": "Urban Planning inspector - we schedule"
+        },
+        "t22": {
+          "st": "pending",
+          "s": "2026-10-06",
+          "e": "2026-12-05",
+          "nt": "End of construction - full package"
+        },
+        "t21": {
+          "st": "pending",
+          "s": "2026-08-16",
+          "e": "2026-10-30",
+          "nt": "Phased May-July"
+        }
+      },
+      "milestones": [],
+      "payments": [],
+      "documents": [],
+      "photos": [],
+      "commLog": [],
+      "purchase": {
+        "price": null,
+        "currency": "EUR",
+        "buyer": "[CLIENT NAME]",
+        "contractDate": null,
+        "notary": null,
+        "lawyer": null,
+        "status": "pre-contract"
+      },
+      "snagList": [],
+      "customCategories": [],
+      "noteTranslations": {
+        "en": {
+          "action": {
+            "label": "Action Required",
+            "text": "Bathroom fixtures and fittings selection meeting must be scheduled immediately. Critical path for handover."
+          },
+          "paint": {
+            "label": "Pending Decision",
+            "text": "Interior paint colours to be selected by client during bathroom fixtures meeting. 4-day job after windows."
+          },
+          "facade": {
+            "label": "Pending Decision",
+            "text": "Exterior facade: painted finish OR PVC paneling — decision required. Both LEED compatible."
+          },
+          "ev": {
+            "label": "EV Charging",
+            "text": "Dedicated EV charging station included in basement/parking scope."
+          },
+          "smartHome": {
+            "label": "Smart Home",
+            "text": "All smart home items ordered. Configuration session after move-in. Client must be present."
+          },
+          "leed": {
+            "label": "LEED Platinum",
+            "text": "Certification as complete package at end of construction. Energy audits: 6mo, 12mo, 3yr, 5yr."
+          }
+        },
+        "el": {
+          "action": {
+            "label": "Απαιτείται Ενέργεια",
+            "text": "Συνάντηση επιλογής ειδών υγιεινής πρέπει να προγραμματιστεί άμεσα. Κρίσιμη διαδρομή για παράδοση."
+          },
+          "paint": {
+            "label": "Εκκρεμείς Αποφάσεις",
+            "text": "Τα χρώματα εσωτερικής βαφής θα επιλεγούν από τον πελάτη κατά τη συνάντηση. 4 ημέρες μετά τα κουφώματα."
+          },
+          "facade": {
+            "label": "Εκκρεμείς Αποφάσεις",
+            "text": "Εξωτερική πρόσοψη: βαφή ή επένδυση PVC — απαιτείται απόφαση. Συμβατά με LEED Platinum."
+          },
+          "ev": {
+            "label": "Φόρτιση EV",
+            "text": "Αποκλειστικός σταθμός φόρτισης EV στο υπόγειο/πάρκινγκ."
+          },
+          "smartHome": {
+            "label": "Έξυπνο Σπίτι",
+            "text": "Όλα τα στοιχεία έξυπνου σπιτιού παραγγελθέντα. Συνεδρία ρύθμισης μετά τη μετοίκηση. Ο πελάτης πρέπει να είναι παρών."
+          },
+          "leed": {
+            "label": "LEED Platinum",
+            "text": "Πιστοποίηση ως πλήρες πακέτο στο τέλος κατασκευής. Ενεργειακοί έλεγχοι: 6μηνο, 12μηνο, 3ετία, 5ετία."
+          }
+        }
+      },
+      "translations": {
+        "t1": [
+          "Structural / Shell",
+          "Δομή / Κέλυφος"
+        ],
+        "t2": [
+          "Waterproofing & Insulation",
+          "Υδροστέγανο & Μόνωση"
+        ],
+        "t3": [
+          "Plaster / Mortar",
+          "Κονίαμα / Τσιμεντοκονία"
+        ],
+        "t4": [
+          "Windows & External Doors",
+          "Κουφώματα & Εξωτερικές Πόρτες"
+        ],
+        "t5": [
+          "Electrical - Rough In",
+          "Ηλεκτρολογικά - Πρώτη Εγκατάσταση"
+        ],
+        "t6": [
+          "Plumbing - Rough In",
+          "Υδραυλικά - Πρώτη Εγκατάσταση"
+        ],
+        "t7": [
+          "HVAC - Ductwork",
+          "Κλιματισμός - Αγωγοί"
+        ],
+        "t8": [
+          "Underfloor Heating",
+          "Κεντρικό Θέρμανση Δαπέδου"
+        ],
+        "t9": [
+          "Floor Screed",
+          "Σκυρόδεμα Δαπέδου"
+        ],
+        "t10": [
+          "Tiling - Floor & Wall",
+          "Ψηφιδωτά - Δάπεδο & Τοίχοι"
+        ],
+        "t11": [
+          "Joinery / Doors Interior",
+          "Ξυλουργική / Εσωτερικές Πόρτες"
+        ],
+        "t12": [
+          "Kitchen Cabinetry",
+          "Κουζίνα"
+        ],
+        "t13": [
+          "Sanitary Ware",
+          "Είδη Υγιεινής"
+        ],
+        "t14": [
+          "Electrical - Fixtures",
+          "Ηλεκτρολογικά - Φωτισμός & Πρίζες"
+        ],
+        "t15": [
+          "Exterior Facade / Painting",
+          "Εξωτερική Πρόσοψη / Βαφή"
+        ],
+        "t16": [
+          "Balcony Railings & Glazing",
+          "Μπαλκονιέρες & Γυαλιά"
+        ],
+        "t17": [
+          "Interior Painting",
+          "Εσωτερική Βαφή"
+        ],
+        "t18": [
+          "Elevator Installation",
+          "Εγκατάσταση Ανελκυστήρα"
+        ],
+        "t19": [
+          "Final Electrical - Fixtures & Switches",
+          "Τελικά Ηλεκτρολογικά - Φωτισμός & Διακόπτες"
+        ],
+        "t20": [
+          "Final Plumbing - Taps & Accessories",
+          "Τελικά Υδραυλικά - Βρύσες & Εξαρτήματα"
+        ],
+        "t21": [
+          "Appliance Installation",
+          "Εγκατάσταση Συσκευών"
+        ],
+        "t22": [
+          "Smart Home / Automation",
+          "Έξυπνο Σπίτι / Αυτοματισμός"
+        ],
+        "t23": [
+          "Final Cleaning",
+          "Τελικός Καθαρισμός"
+        ],
+        "t24": [
+          "Punch List / Snagging",
+          "Λίστα Ελλειμμάτων"
+        ],
+        "t25": [
+          "Inspections / CO",
+          "Έλεγχοι / Άδεια Χρήσης"
+        ],
+        "t26": [
+          "Client Handover",
+          "Παράδοση Πελάτη"
+        ],
+        "t27": [
+          "Post-Handover Defect Liability",
+          "Εγγύηση Μετά την Παράδοση"
+        ]
+      },
+      "_noteMeta": {
+        "actionrequired": {
+          "label": "Action Required",
+          "type": "action"
+        },
+        "pendingdecision": {
+          "label": "Pending Decision",
+          "type": "warning"
+        },
+        "kitchendesignandchoi": {
+          "label": "Kitchen Design and Choice",
+          "type": "action"
+        },
+        "floorselection": {
+          "label": "Floor Selection",
+          "type": "action"
+        },
+        "bathroomfixturesandt": {
+          "label": "Bathroom fixtures and Tiles",
+          "type": "action"
+        }
+      }
+    },
+    "1b": {
+      "name": "Harmonia",
+      "floor": "1",
+      "size_m2": 99,
+      "client": "[CLIENT NAME]",
+      "token": "lm-1b-harmonia-2026",
+      "handover": "[TBD]",
+      "handoverDate": null,
+      "notes": {
+        "action": "Bathroom fixtures selection meeting with Fatouros/Diakatou must be scheduled immediately. Critical path for May handover.",
+        "paint": "Interior paint colours to be selected during bathroom fixtures meeting.",
+        "facade": "Exterior facade: painted finish OR PVC paneling - decision required.",
+        "ev": "Dedicated EV charging station included in basement/parking scope.",
+        "smartHome": "All smart home items ordered. Client configuration session required prior to move-in. Client must be present.",
+        "leed": "Certification submitted as complete package at end of construction. Energy audits at 6mo, 12mo, 3yr, 5yr."
+      },
+      "tasks": {
+        "t1": {
+          "st": "complete",
+          "s": "2026-02-08",
+          "e": "2026-02-17",
+          "nt": "Concrete, masonry, openings"
+        },
+        "t2": {
+          "st": "pending",
+          "s": "2026-03-16",
+          "e": "2026-04-03",
+          "nt": "Exterior + balcony + wet areas"
+        },
+        "t16": {
+          "st": "pending",
+          "s": "2026-04-13",
+          "e": "2026-04-20",
+          "nt": "Exalco glass railings"
+        },
+        "t15": {
+          "st": "pending",
+          "s": "2026-05-04",
+          "e": "2026-05-17",
+          "nt": "Painted or PVC - TBD"
+        },
+        "hvac": {
+          "st": "inprogress",
+          "s": "2026-02-25",
+          "e": "2026-03-20",
+          "nt": "UFH, heat pump, FCUs - unblocks flooring"
+        },
+        "hrv": {
+          "st": "inprogress",
+          "s": "2026-02-22",
+          "e": "2026-03-07",
+          "nt": "Ceiling units + ducting"
+        },
+        "t10": {
+          "st": "blocked",
+          "s": "2026-03-27",
+          "e": "2026-04-12",
+          "nt": "After HVAC + flooring"
+        },
+        "t11": {
+          "st": "inprogress",
+          "s": "2026-03-22",
+          "e": "2026-04-07",
+          "nt": "Switches, panels, smart home, lighting"
+        },
+        "t19": {
+          "st": "pending",
+          "s": "2026-04-08",
+          "e": "2026-04-27",
+          "nt": "Smoke, extinguishers, emergency lighting"
+        },
+        "t20": {
+          "st": "pending",
+          "s": "2026-04-08",
+          "e": "2026-05-02",
+          "nt": "Phased - unit complete April"
+        },
+        "t6": {
+          "st": "blocked",
+          "s": "2026-03-15",
+          "e": "2026-03-29",
+          "nt": "After plumbing + electrical rough-in"
+        },
+        "t7": {
+          "st": "pending",
+          "s": "2026-03-27",
+          "e": "2026-04-12",
+          "nt": "After HVAC complete - client chosen"
+        },
+        "t8": {
+          "st": "pending",
+          "s": "2026-04-12",
+          "e": "2026-04-16",
+          "nt": "4 days - after flooring complete"
+        },
+        "t9": {
+          "st": "critical",
+          "s": "2026-04-01",
+          "e": "2026-04-17",
+          "nt": "Selection meeting needed - CRITICAL PATH"
+        },
+        "t14": {
+          "st": "pending",
+          "s": "2026-05-08",
+          "e": "2026-05-12",
+          "nt": "4 days - after windows installed"
+        },
+        "t4": {
+          "st": "pending",
+          "s": "2026-04-08",
+          "e": "2026-04-17",
+          "nt": "Ordered - delivery early April"
+        },
+        "t5": {
+          "st": "pending",
+          "s": "2026-04-14",
+          "e": "2026-04-16",
+          "nt": "Ordered - 2 days install"
+        },
+        "t3": {
+          "st": "pending",
+          "s": "2026-05-04",
+          "e": "2026-05-12",
+          "nt": "Exalco - delivery end April, 5 days"
+        },
+        "t13": {
+          "st": "pending",
+          "s": "2026-05-04",
+          "e": "2026-05-09",
+          "nt": "5 days installation"
+        },
+        "t18": {
+          "st": "inprogress",
+          "s": "2026-02-22",
+          "e": "2026-04-07",
+          "nt": "EV station for Fatouros included"
+        },
+        "t17": {
+          "st": "pending",
+          "s": "2026-05-08",
+          "e": "2026-08-07",
+          "nt": "Lobby, hallways, stairwell"
+        },
+        "pv": {
+          "st": "pending",
+          "s": "2026-06-08",
+          "e": "2026-07-22",
+          "nt": "Does not affect unit delivery"
+        },
+        "pent": {
+          "st": "pending",
+          "s": "2026-04-08",
+          "e": "2026-05-07",
+          "nt": "160sqm maisonette - independent"
+        },
+        "t24": {
+          "st": "pending",
+          "s": "2026-04-27",
+          "e": "2026-05-04",
+          "nt": "1 week prior to handover"
+        },
+        "t23": {
+          "st": "pending",
+          "s": "2026-05-02",
+          "e": "2026-05-07",
+          "nt": "Urban Planning inspector - we schedule"
+        },
+        "t22": {
+          "st": "pending",
+          "s": "2026-06-08",
+          "e": "2026-08-07",
+          "nt": "End of construction - full package"
+        },
+        "t21": {
+          "st": "pending",
+          "s": "2026-05-08",
+          "e": "2026-07-22",
+          "nt": "Phased May-July"
+        }
+      },
+      "milestones": [],
+      "payments": [],
+      "documents": [],
+      "photos": [],
+      "commLog": [],
+      "purchase": {
+        "price": null,
+        "currency": "EUR",
+        "buyer": "[CLIENT NAME]",
+        "contractDate": null,
+        "notary": null,
+        "lawyer": null,
+        "status": "pre-contract"
+      },
+      "snagList": [],
+      "customCategories": [],
+      "noteTranslations": {
+        "en": {
+          "action": {
+            "label": "Action Required",
+            "text": "Bathroom fixtures and fittings selection meeting must be scheduled immediately. Critical path for handover."
+          },
+          "paint": {
+            "label": "Pending Decision",
+            "text": "Interior paint colours to be selected by client during bathroom fixtures meeting. 4-day job after windows."
+          },
+          "facade": {
+            "label": "Pending Decision",
+            "text": "Exterior facade: painted finish OR PVC paneling — decision required. Both LEED compatible."
+          },
+          "ev": {
+            "label": "EV Charging",
+            "text": "Dedicated EV charging station included in basement/parking scope."
+          },
+          "smartHome": {
+            "label": "Smart Home",
+            "text": "All smart home items ordered. Configuration session after move-in. Client must be present."
+          },
+          "leed": {
+            "label": "LEED Platinum",
+            "text": "Certification as complete package at end of construction. Energy audits: 6mo, 12mo, 3yr, 5yr."
+          }
+        },
+        "el": {
+          "action": {
+            "label": "Απαιτείται Ενέργεια",
+            "text": "Συνάντηση επιλογής ειδών υγιεινής πρέπει να προγραμματιστεί άμεσα. Κρίσιμη διαδρομή για παράδοση."
+          },
+          "paint": {
+            "label": "Εκκρεμείς Αποφάσεις",
+            "text": "Τα χρώματα εσωτερικής βαφής θα επιλεγούν από τον πελάτη κατά τη συνάντηση. 4 ημέρες μετά τα κουφώματα."
+          },
+          "facade": {
+            "label": "Εκκρεμείς Αποφάσεις",
+            "text": "Εξωτερική πρόσοψη: βαφή ή επένδυση PVC — απαιτείται απόφαση. Συμβατά με LEED Platinum."
+          },
+          "ev": {
+            "label": "Φόρτιση EV",
+            "text": "Αποκλειστικός σταθμός φόρτισης EV στο υπόγειο/πάρκινγκ."
+          },
+          "smartHome": {
+            "label": "Έξυπνο Σπίτι",
+            "text": "Όλα τα στοιχεία έξυπνου σπιτιού παραγγελθέντα. Συνεδρία ρύθμισης μετά τη μετοίκηση. Ο πελάτης πρέπει να είναι παρών."
+          },
+          "leed": {
+            "label": "LEED Platinum",
+            "text": "Πιστοποίηση ως πλήρες πακέτο στο τέλος κατασκευής. Ενεργειακοί έλεγχοι: 6μηνο, 12μηνο, 3ετία, 5ετία."
+          }
+        }
+      },
+      "translations": {
+        "t1": [
+          "Structural / Shell",
+          "Δομή / Κέλυφος"
+        ],
+        "t2": [
+          "Waterproofing & Insulation",
+          "Υδροστέγανο & Μόνωση"
+        ],
+        "t3": [
+          "Plaster / Mortar",
+          "Κονίαμα / Τσιμεντοκονία"
+        ],
+        "t4": [
+          "Windows & External Doors",
+          "Κουφώματα & Εξωτερικές Πόρτες"
+        ],
+        "t5": [
+          "Electrical - Rough In",
+          "Ηλεκτρολογικά - Πρώτη Εγκατάσταση"
+        ],
+        "t6": [
+          "Plumbing - Rough In",
+          "Υδραυλικά - Πρώτη Εγκατάσταση"
+        ],
+        "t7": [
+          "HVAC - Ductwork",
+          "Κλιματισμός - Αγωγοί"
+        ],
+        "t8": [
+          "Underfloor Heating",
+          "Κεντρικό Θέρμανση Δαπέδου"
+        ],
+        "t9": [
+          "Floor Screed",
+          "Σκυρόδεμα Δαπέδου"
+        ],
+        "t10": [
+          "Tiling - Floor & Wall",
+          "Ψηφιδωτά - Δάπεδο & Τοίχοι"
+        ],
+        "t11": [
+          "Joinery / Doors Interior",
+          "Ξυλουργική / Εσωτερικές Πόρτες"
+        ],
+        "t12": [
+          "Kitchen Cabinetry",
+          "Κουζίνα"
+        ],
+        "t13": [
+          "Sanitary Ware",
+          "Είδη Υγιεινής"
+        ],
+        "t14": [
+          "Electrical - Fixtures",
+          "Ηλεκτρολογικά - Φωτισμός & Πρίζες"
+        ],
+        "t15": [
+          "Exterior Facade / Painting",
+          "Εξωτερική Πρόσοψη / Βαφή"
+        ],
+        "t16": [
+          "Balcony Railings & Glazing",
+          "Μπαλκονιέρες & Γυαλιά"
+        ],
+        "t17": [
+          "Interior Painting",
+          "Εσωτερική Βαφή"
+        ],
+        "t18": [
+          "Elevator Installation",
+          "Εγκατάσταση Ανελκυστήρα"
+        ],
+        "t19": [
+          "Final Electrical - Fixtures & Switches",
+          "Τελικά Ηλεκτρολογικά - Φωτισμός & Διακόπτες"
+        ],
+        "t20": [
+          "Final Plumbing - Taps & Accessories",
+          "Τελικά Υδραυλικά - Βρύσες & Εξαρτήματα"
+        ],
+        "t21": [
+          "Appliance Installation",
+          "Εγκατάσταση Συσκευών"
+        ],
+        "t22": [
+          "Smart Home / Automation",
+          "Έξυπνο Σπίτι / Αυτοματισμός"
+        ],
+        "t23": [
+          "Final Cleaning",
+          "Τελικός Καθαρισμός"
+        ],
+        "t24": [
+          "Punch List / Snagging",
+          "Λίστα Ελλειμμάτων"
+        ],
+        "t25": [
+          "Inspections / CO",
+          "Έλεγχοι / Άδεια Χρήσης"
+        ],
+        "t26": [
+          "Client Handover",
+          "Παράδοση Πελάτη"
+        ],
+        "t27": [
+          "Post-Handover Defect Liability",
+          "Εγγύηση Μετά την Παράδοση"
+        ]
+      }
+    },
+    "2a": {
+      "name": "Aurora",
+      "floor": "2",
+      "size_m2": 63,
+      "client": "[CLIENT NAME]",
+      "token": "lm-2a-aurora-2026",
+      "handover": "[TBD]",
+      "handoverDate": null,
+      "notes": {
+        "action": "Bathroom fixtures selection meeting with Fatouros/Diakatou must be scheduled immediately. Critical path for May handover.",
+        "paint": "Interior paint colours to be selected during bathroom fixtures meeting.",
+        "facade": "Exterior facade: painted finish OR PVC paneling - decision required.",
+        "ev": "Dedicated EV charging station included in basement/parking scope.",
+        "smartHome": "All smart home items ordered. Client configuration session required prior to move-in. Client must be present.",
+        "leed": "Certification submitted as complete package at end of construction. Energy audits at 6mo, 12mo, 3yr, 5yr."
+      },
+      "tasks": {
+        "t1": {
+          "st": "complete",
+          "s": "2026-02-08",
+          "e": "2026-02-17",
+          "nt": "Concrete, masonry, openings"
+        },
+        "t2": {
+          "st": "pending",
+          "s": "2026-03-16",
+          "e": "2026-04-03",
+          "nt": "Exterior + balcony + wet areas"
+        },
+        "t16": {
+          "st": "pending",
+          "s": "2026-04-13",
+          "e": "2026-04-20",
+          "nt": "Exalco glass railings"
+        },
+        "t15": {
+          "st": "pending",
+          "s": "2026-05-04",
+          "e": "2026-05-17",
+          "nt": "Painted or PVC - TBD"
+        },
+        "hvac": {
+          "st": "inprogress",
+          "s": "2026-02-25",
+          "e": "2026-03-20",
+          "nt": "UFH, heat pump, FCUs - unblocks flooring"
+        },
+        "hrv": {
+          "st": "inprogress",
+          "s": "2026-02-22",
+          "e": "2026-03-07",
+          "nt": "Ceiling units + ducting"
+        },
+        "t10": {
+          "st": "blocked",
+          "s": "2026-03-27",
+          "e": "2026-04-12",
+          "nt": "After HVAC + flooring"
+        },
+        "t11": {
+          "st": "inprogress",
+          "s": "2026-03-22",
+          "e": "2026-04-07",
+          "nt": "Switches, panels, smart home, lighting"
+        },
+        "t19": {
+          "st": "pending",
+          "s": "2026-04-08",
+          "e": "2026-04-27",
+          "nt": "Smoke, extinguishers, emergency lighting"
+        },
+        "t20": {
+          "st": "pending",
+          "s": "2026-04-08",
+          "e": "2026-05-02",
+          "nt": "Phased - unit complete April"
+        },
+        "t6": {
+          "st": "blocked",
+          "s": "2026-03-15",
+          "e": "2026-03-29",
+          "nt": "After plumbing + electrical rough-in"
+        },
+        "t7": {
+          "st": "pending",
+          "s": "2026-03-27",
+          "e": "2026-04-12",
+          "nt": "After HVAC complete - client chosen"
+        },
+        "t8": {
+          "st": "pending",
+          "s": "2026-04-12",
+          "e": "2026-04-16",
+          "nt": "4 days - after flooring complete"
+        },
+        "t9": {
+          "st": "critical",
+          "s": "2026-04-01",
+          "e": "2026-04-17",
+          "nt": "Selection meeting needed - CRITICAL PATH"
+        },
+        "t14": {
+          "st": "pending",
+          "s": "2026-05-08",
+          "e": "2026-05-12",
+          "nt": "4 days - after windows installed"
+        },
+        "t4": {
+          "st": "pending",
+          "s": "2026-04-08",
+          "e": "2026-04-17",
+          "nt": "Ordered - delivery early April"
+        },
+        "t5": {
+          "st": "pending",
+          "s": "2026-04-14",
+          "e": "2026-04-16",
+          "nt": "Ordered - 2 days install"
+        },
+        "t3": {
+          "st": "pending",
+          "s": "2026-05-04",
+          "e": "2026-05-12",
+          "nt": "Exalco - delivery end April, 5 days"
+        },
+        "t13": {
+          "st": "pending",
+          "s": "2026-05-04",
+          "e": "2026-05-09",
+          "nt": "5 days installation"
+        },
+        "t18": {
+          "st": "inprogress",
+          "s": "2026-02-22",
+          "e": "2026-04-07",
+          "nt": "EV station for Fatouros included"
+        },
+        "t17": {
+          "st": "pending",
+          "s": "2026-05-08",
+          "e": "2026-08-07",
+          "nt": "Lobby, hallways, stairwell"
+        },
+        "pv": {
+          "st": "pending",
+          "s": "2026-06-08",
+          "e": "2026-07-22",
+          "nt": "Does not affect unit delivery"
+        },
+        "pent": {
+          "st": "pending",
+          "s": "2026-04-08",
+          "e": "2026-05-07",
+          "nt": "160sqm maisonette - independent"
+        },
+        "t24": {
+          "st": "pending",
+          "s": "2026-04-27",
+          "e": "2026-05-04",
+          "nt": "1 week prior to handover"
+        },
+        "t23": {
+          "st": "pending",
+          "s": "2026-05-02",
+          "e": "2026-05-07",
+          "nt": "Urban Planning inspector - we schedule"
+        },
+        "t22": {
+          "st": "pending",
+          "s": "2026-06-08",
+          "e": "2026-08-07",
+          "nt": "End of construction - full package"
+        },
+        "t21": {
+          "st": "pending",
+          "s": "2026-05-08",
+          "e": "2026-07-22",
+          "nt": "Phased May-July"
+        }
+      },
+      "milestones": [],
+      "payments": [],
+      "documents": [],
+      "photos": [],
+      "commLog": [],
+      "purchase": {
+        "price": null,
+        "currency": "EUR",
+        "buyer": "[CLIENT NAME]",
+        "contractDate": null,
+        "notary": null,
+        "lawyer": null,
+        "status": "pre-contract"
+      },
+      "snagList": [],
+      "customCategories": [],
+      "noteTranslations": {
+        "en": {
+          "action": {
+            "label": "Action Required",
+            "text": "Bathroom fixtures and fittings selection meeting must be scheduled immediately. Critical path for handover."
+          },
+          "paint": {
+            "label": "Pending Decision",
+            "text": "Interior paint colours to be selected by client during bathroom fixtures meeting. 4-day job after windows."
+          },
+          "facade": {
+            "label": "Pending Decision",
+            "text": "Exterior facade: painted finish OR PVC paneling — decision required. Both LEED compatible."
+          },
+          "ev": {
+            "label": "EV Charging",
+            "text": "Dedicated EV charging station included in basement/parking scope."
+          },
+          "smartHome": {
+            "label": "Smart Home",
+            "text": "All smart home items ordered. Configuration session after move-in. Client must be present."
+          },
+          "leed": {
+            "label": "LEED Platinum",
+            "text": "Certification as complete package at end of construction. Energy audits: 6mo, 12mo, 3yr, 5yr."
+          }
+        },
+        "el": {
+          "action": {
+            "label": "Απαιτείται Ενέργεια",
+            "text": "Συνάντηση επιλογής ειδών υγιεινής πρέπει να προγραμματιστεί άμεσα. Κρίσιμη διαδρομή για παράδοση."
+          },
+          "paint": {
+            "label": "Εκκρεμείς Αποφάσεις",
+            "text": "Τα χρώματα εσωτερικής βαφής θα επιλεγούν από τον πελάτη κατά τη συνάντηση. 4 ημέρες μετά τα κουφώματα."
+          },
+          "facade": {
+            "label": "Εκκρεμείς Αποφάσεις",
+            "text": "Εξωτερική πρόσοψη: βαφή ή επένδυση PVC — απαιτείται απόφαση. Συμβατά με LEED Platinum."
+          },
+          "ev": {
+            "label": "Φόρτιση EV",
+            "text": "Αποκλειστικός σταθμός φόρτισης EV στο υπόγειο/πάρκινγκ."
+          },
+          "smartHome": {
+            "label": "Έξυπνο Σπίτι",
+            "text": "Όλα τα στοιχεία έξυπνου σπιτιού παραγγελθέντα. Συνεδρία ρύθμισης μετά τη μετοίκηση. Ο πελάτης πρέπει να είναι παρών."
+          },
+          "leed": {
+            "label": "LEED Platinum",
+            "text": "Πιστοποίηση ως πλήρες πακέτο στο τέλος κατασκευής. Ενεργειακοί έλεγχοι: 6μηνο, 12μηνο, 3ετία, 5ετία."
+          }
+        }
+      },
+      "translations": {
+        "t1": [
+          "Structural / Shell",
+          "Δομή / Κέλυφος"
+        ],
+        "t2": [
+          "Waterproofing & Insulation",
+          "Υδροστέγανο & Μόνωση"
+        ],
+        "t3": [
+          "Plaster / Mortar",
+          "Κονίαμα / Τσιμεντοκονία"
+        ],
+        "t4": [
+          "Windows & External Doors",
+          "Κουφώματα & Εξωτερικές Πόρτες"
+        ],
+        "t5": [
+          "Electrical - Rough In",
+          "Ηλεκτρολογικά - Πρώτη Εγκατάσταση"
+        ],
+        "t6": [
+          "Plumbing - Rough In",
+          "Υδραυλικά - Πρώτη Εγκατάσταση"
+        ],
+        "t7": [
+          "HVAC - Ductwork",
+          "Κλιματισμός - Αγωγοί"
+        ],
+        "t8": [
+          "Underfloor Heating",
+          "Κεντρικό Θέρμανση Δαπέδου"
+        ],
+        "t9": [
+          "Floor Screed",
+          "Σκυρόδεμα Δαπέδου"
+        ],
+        "t10": [
+          "Tiling - Floor & Wall",
+          "Ψηφιδωτά - Δάπεδο & Τοίχοι"
+        ],
+        "t11": [
+          "Joinery / Doors Interior",
+          "Ξυλουργική / Εσωτερικές Πόρτες"
+        ],
+        "t12": [
+          "Kitchen Cabinetry",
+          "Κουζίνα"
+        ],
+        "t13": [
+          "Sanitary Ware",
+          "Είδη Υγιεινής"
+        ],
+        "t14": [
+          "Electrical - Fixtures",
+          "Ηλεκτρολογικά - Φωτισμός & Πρίζες"
+        ],
+        "t15": [
+          "Exterior Facade / Painting",
+          "Εξωτερική Πρόσοψη / Βαφή"
+        ],
+        "t16": [
+          "Balcony Railings & Glazing",
+          "Μπαλκονιέρες & Γυαλιά"
+        ],
+        "t17": [
+          "Interior Painting",
+          "Εσωτερική Βαφή"
+        ],
+        "t18": [
+          "Elevator Installation",
+          "Εγκατάσταση Ανελκυστήρα"
+        ],
+        "t19": [
+          "Final Electrical - Fixtures & Switches",
+          "Τελικά Ηλεκτρολογικά - Φωτισμός & Διακόπτες"
+        ],
+        "t20": [
+          "Final Plumbing - Taps & Accessories",
+          "Τελικά Υδραυλικά - Βρύσες & Εξαρτήματα"
+        ],
+        "t21": [
+          "Appliance Installation",
+          "Εγκατάσταση Συσκευών"
+        ],
+        "t22": [
+          "Smart Home / Automation",
+          "Έξυπνο Σπίτι / Αυτοματισμός"
+        ],
+        "t23": [
+          "Final Cleaning",
+          "Τελικός Καθαρισμός"
+        ],
+        "t24": [
+          "Punch List / Snagging",
+          "Λίστα Ελλειμμάτων"
+        ],
+        "t25": [
+          "Inspections / CO",
+          "Έλεγχοι / Άδεια Χρήσης"
+        ],
+        "t26": [
+          "Client Handover",
+          "Παράδοση Πελάτη"
+        ],
+        "t27": [
+          "Post-Handover Defect Liability",
+          "Εγγύηση Μετά την Παράδοση"
+        ]
+      }
+    },
+    "2b": {
+      "name": "Serenity",
+      "floor": "2",
+      "size_m2": 99,
+      "client": "[CLIENT NAME]",
+      "token": "lm-2b-serenity-2026",
+      "handover": "[TBD]",
+      "handoverDate": null,
+      "notes": {
+        "action": "Bathroom fixtures selection meeting with Fatouros/Diakatou must be scheduled immediately. Critical path for May handover.",
+        "paint": "Interior paint colours to be selected during bathroom fixtures meeting.",
+        "facade": "Exterior facade: painted finish OR PVC paneling - decision required.",
+        "ev": "Dedicated EV charging station included in basement/parking scope.",
+        "smartHome": "All smart home items ordered. Client configuration session required prior to move-in. Client must be present.",
+        "leed": "Certification submitted as complete package at end of construction. Energy audits at 6mo, 12mo, 3yr, 5yr."
+      },
+      "tasks": {
+        "t1": {
+          "st": "complete",
+          "s": "2026-02-08",
+          "e": "2026-02-17",
+          "nt": "Concrete, masonry, openings"
+        },
+        "t2": {
+          "st": "pending",
+          "s": "2026-03-16",
+          "e": "2026-04-03",
+          "nt": "Exterior + balcony + wet areas"
+        },
+        "t16": {
+          "st": "pending",
+          "s": "2026-04-13",
+          "e": "2026-04-20",
+          "nt": "Exalco glass railings"
+        },
+        "t15": {
+          "st": "pending",
+          "s": "2026-05-04",
+          "e": "2026-05-17",
+          "nt": "Painted or PVC - TBD"
+        },
+        "hvac": {
+          "st": "inprogress",
+          "s": "2026-02-25",
+          "e": "2026-03-20",
+          "nt": "UFH, heat pump, FCUs - unblocks flooring"
+        },
+        "hrv": {
+          "st": "inprogress",
+          "s": "2026-02-22",
+          "e": "2026-03-07",
+          "nt": "Ceiling units + ducting"
+        },
+        "t10": {
+          "st": "blocked",
+          "s": "2026-03-27",
+          "e": "2026-04-12",
+          "nt": "After HVAC + flooring"
+        },
+        "t11": {
+          "st": "inprogress",
+          "s": "2026-03-22",
+          "e": "2026-04-07",
+          "nt": "Switches, panels, smart home, lighting"
+        },
+        "t19": {
+          "st": "pending",
+          "s": "2026-04-08",
+          "e": "2026-04-27",
+          "nt": "Smoke, extinguishers, emergency lighting"
+        },
+        "t20": {
+          "st": "pending",
+          "s": "2026-04-08",
+          "e": "2026-05-02",
+          "nt": "Phased - unit complete April"
+        },
+        "t6": {
+          "st": "blocked",
+          "s": "2026-03-15",
+          "e": "2026-03-29",
+          "nt": "After plumbing + electrical rough-in"
+        },
+        "t7": {
+          "st": "pending",
+          "s": "2026-03-27",
+          "e": "2026-04-12",
+          "nt": "After HVAC complete - client chosen"
+        },
+        "t8": {
+          "st": "pending",
+          "s": "2026-04-12",
+          "e": "2026-04-16",
+          "nt": "4 days - after flooring complete"
+        },
+        "t9": {
+          "st": "critical",
+          "s": "2026-04-01",
+          "e": "2026-04-17",
+          "nt": "Selection meeting needed - CRITICAL PATH"
+        },
+        "t14": {
+          "st": "pending",
+          "s": "2026-05-08",
+          "e": "2026-05-12",
+          "nt": "4 days - after windows installed"
+        },
+        "t4": {
+          "st": "pending",
+          "s": "2026-04-08",
+          "e": "2026-04-17",
+          "nt": "Ordered - delivery early April"
+        },
+        "t5": {
+          "st": "pending",
+          "s": "2026-04-14",
+          "e": "2026-04-16",
+          "nt": "Ordered - 2 days install"
+        },
+        "t3": {
+          "st": "pending",
+          "s": "2026-05-04",
+          "e": "2026-05-12",
+          "nt": "Exalco - delivery end April, 5 days"
+        },
+        "t13": {
+          "st": "pending",
+          "s": "2026-05-04",
+          "e": "2026-05-09",
+          "nt": "5 days installation"
+        },
+        "t18": {
+          "st": "inprogress",
+          "s": "2026-02-22",
+          "e": "2026-04-07",
+          "nt": "EV station for Fatouros included"
+        },
+        "t17": {
+          "st": "pending",
+          "s": "2026-05-08",
+          "e": "2026-08-07",
+          "nt": "Lobby, hallways, stairwell"
+        },
+        "pv": {
+          "st": "pending",
+          "s": "2026-06-08",
+          "e": "2026-07-22",
+          "nt": "Does not affect unit delivery"
+        },
+        "pent": {
+          "st": "pending",
+          "s": "2026-04-08",
+          "e": "2026-05-07",
+          "nt": "160sqm maisonette - independent"
+        },
+        "t24": {
+          "st": "pending",
+          "s": "2026-04-27",
+          "e": "2026-05-04",
+          "nt": "1 week prior to handover"
+        },
+        "t23": {
+          "st": "pending",
+          "s": "2026-05-02",
+          "e": "2026-05-07",
+          "nt": "Urban Planning inspector - we schedule"
+        },
+        "t22": {
+          "st": "pending",
+          "s": "2026-06-08",
+          "e": "2026-08-07",
+          "nt": "End of construction - full package"
+        },
+        "t21": {
+          "st": "pending",
+          "s": "2026-05-08",
+          "e": "2026-07-22",
+          "nt": "Phased May-July"
+        }
+      },
+      "milestones": [],
+      "payments": [],
+      "documents": [],
+      "photos": [],
+      "commLog": [],
+      "purchase": {
+        "price": null,
+        "currency": "EUR",
+        "buyer": "[CLIENT NAME]",
+        "contractDate": null,
+        "notary": null,
+        "lawyer": null,
+        "status": "pre-contract"
+      },
+      "snagList": [],
+      "customCategories": [],
+      "noteTranslations": {
+        "en": {
+          "action": {
+            "label": "Action Required",
+            "text": "Bathroom fixtures and fittings selection meeting must be scheduled immediately. Critical path for handover."
+          },
+          "paint": {
+            "label": "Pending Decision",
+            "text": "Interior paint colours to be selected by client during bathroom fixtures meeting. 4-day job after windows."
+          },
+          "facade": {
+            "label": "Pending Decision",
+            "text": "Exterior facade: painted finish OR PVC paneling — decision required. Both LEED compatible."
+          },
+          "ev": {
+            "label": "EV Charging",
+            "text": "Dedicated EV charging station included in basement/parking scope."
+          },
+          "smartHome": {
+            "label": "Smart Home",
+            "text": "All smart home items ordered. Configuration session after move-in. Client must be present."
+          },
+          "leed": {
+            "label": "LEED Platinum",
+            "text": "Certification as complete package at end of construction. Energy audits: 6mo, 12mo, 3yr, 5yr."
+          }
+        },
+        "el": {
+          "action": {
+            "label": "Απαιτείται Ενέργεια",
+            "text": "Συνάντηση επιλογής ειδών υγιεινής πρέπει να προγραμματιστεί άμεσα. Κρίσιμη διαδρομή για παράδοση."
+          },
+          "paint": {
+            "label": "Εκκρεμείς Αποφάσεις",
+            "text": "Τα χρώματα εσωτερικής βαφής θα επιλεγούν από τον πελάτη κατά τη συνάντηση. 4 ημέρες μετά τα κουφώματα."
+          },
+          "facade": {
+            "label": "Εκκρεμείς Αποφάσεις",
+            "text": "Εξωτερική πρόσοψη: βαφή ή επένδυση PVC — απαιτείται απόφαση. Συμβατά με LEED Platinum."
+          },
+          "ev": {
+            "label": "Φόρτιση EV",
+            "text": "Αποκλειστικός σταθμός φόρτισης EV στο υπόγειο/πάρκινγκ."
+          },
+          "smartHome": {
+            "label": "Έξυπνο Σπίτι",
+            "text": "Όλα τα στοιχεία έξυπνου σπιτιού παραγγελθέντα. Συνεδρία ρύθμισης μετά τη μετοίκηση. Ο πελάτης πρέπει να είναι παρών."
+          },
+          "leed": {
+            "label": "LEED Platinum",
+            "text": "Πιστοποίηση ως πλήρες πακέτο στο τέλος κατασκευής. Ενεργειακοί έλεγχοι: 6μηνο, 12μηνο, 3ετία, 5ετία."
+          }
+        }
+      },
+      "translations": {
+        "t1": [
+          "Structural / Shell",
+          "Δομή / Κέλυφος"
+        ],
+        "t2": [
+          "Waterproofing & Insulation",
+          "Υδροστέγανο & Μόνωση"
+        ],
+        "t3": [
+          "Plaster / Mortar",
+          "Κονίαμα / Τσιμεντοκονία"
+        ],
+        "t4": [
+          "Windows & External Doors",
+          "Κουφώματα & Εξωτερικές Πόρτες"
+        ],
+        "t5": [
+          "Electrical - Rough In",
+          "Ηλεκτρολογικά - Πρώτη Εγκατάσταση"
+        ],
+        "t6": [
+          "Plumbing - Rough In",
+          "Υδραυλικά - Πρώτη Εγκατάσταση"
+        ],
+        "t7": [
+          "HVAC - Ductwork",
+          "Κλιματισμός - Αγωγοί"
+        ],
+        "t8": [
+          "Underfloor Heating",
+          "Κεντρικό Θέρμανση Δαπέδου"
+        ],
+        "t9": [
+          "Floor Screed",
+          "Σκυρόδεμα Δαπέδου"
+        ],
+        "t10": [
+          "Tiling - Floor & Wall",
+          "Ψηφιδωτά - Δάπεδο & Τοίχοι"
+        ],
+        "t11": [
+          "Joinery / Doors Interior",
+          "Ξυλουργική / Εσωτερικές Πόρτες"
+        ],
+        "t12": [
+          "Kitchen Cabinetry",
+          "Κουζίνα"
+        ],
+        "t13": [
+          "Sanitary Ware",
+          "Είδη Υγιεινής"
+        ],
+        "t14": [
+          "Electrical - Fixtures",
+          "Ηλεκτρολογικά - Φωτισμός & Πρίζες"
+        ],
+        "t15": [
+          "Exterior Facade / Painting",
+          "Εξωτερική Πρόσοψη / Βαφή"
+        ],
+        "t16": [
+          "Balcony Railings & Glazing",
+          "Μπαλκονιέρες & Γυαλιά"
+        ],
+        "t17": [
+          "Interior Painting",
+          "Εσωτερική Βαφή"
+        ],
+        "t18": [
+          "Elevator Installation",
+          "Εγκατάσταση Ανελκυστήρα"
+        ],
+        "t19": [
+          "Final Electrical - Fixtures & Switches",
+          "Τελικά Ηλεκτρολογικά - Φωτισμός & Διακόπτες"
+        ],
+        "t20": [
+          "Final Plumbing - Taps & Accessories",
+          "Τελικά Υδραυλικά - Βρύσες & Εξαρτήματα"
+        ],
+        "t21": [
+          "Appliance Installation",
+          "Εγκατάσταση Συσκευών"
+        ],
+        "t22": [
+          "Smart Home / Automation",
+          "Έξυπνο Σπίτι / Αυτοματισμός"
+        ],
+        "t23": [
+          "Final Cleaning",
+          "Τελικός Καθαρισμός"
+        ],
+        "t24": [
+          "Punch List / Snagging",
+          "Λίστα Ελλειμμάτων"
+        ],
+        "t25": [
+          "Inspections / CO",
+          "Έλεγχοι / Άδεια Χρήσης"
+        ],
+        "t26": [
+          "Client Handover",
+          "Παράδοση Πελάτη"
+        ],
+        "t27": [
+          "Post-Handover Defect Liability",
+          "Εγγύηση Μετά την Παράδοση"
+        ]
+      }
+    },
+    "3a": {
+      "name": "Celestia",
+      "floor": "3",
+      "size_m2": 63,
+      "client": "[CLIENT NAME]",
+      "token": "lm-3a-celestia-2026",
+      "handover": "[TBD]",
+      "handoverDate": null,
+      "notes": {
+        "action": "Bathroom fixtures selection meeting with Fatouros/Diakatou must be scheduled immediately. Critical path for May handover.",
+        "paint": "Interior paint colours to be selected during bathroom fixtures meeting.",
+        "facade": "Exterior facade: painted finish OR PVC paneling - decision required.",
+        "ev": "Dedicated EV charging station included in basement/parking scope.",
+        "smartHome": "All smart home items ordered. Client configuration session required prior to move-in. Client must be present.",
+        "leed": "Certification submitted as complete package at end of construction. Energy audits at 6mo, 12mo, 3yr, 5yr."
+      },
+      "tasks": {
+        "t1": {
+          "st": "complete",
+          "s": "2026-02-08",
+          "e": "2026-02-17",
+          "nt": "Concrete, masonry, openings"
+        },
+        "t2": {
+          "st": "pending",
+          "s": "2026-03-16",
+          "e": "2026-04-03",
+          "nt": "Exterior + balcony + wet areas"
+        },
+        "t16": {
+          "st": "pending",
+          "s": "2026-04-13",
+          "e": "2026-04-20",
+          "nt": "Exalco glass railings"
+        },
+        "t15": {
+          "st": "pending",
+          "s": "2026-05-04",
+          "e": "2026-05-17",
+          "nt": "Painted or PVC - TBD"
+        },
+        "hvac": {
+          "st": "inprogress",
+          "s": "2026-02-25",
+          "e": "2026-03-20",
+          "nt": "UFH, heat pump, FCUs - unblocks flooring"
+        },
+        "hrv": {
+          "st": "inprogress",
+          "s": "2026-02-22",
+          "e": "2026-03-07",
+          "nt": "Ceiling units + ducting"
+        },
+        "t10": {
+          "st": "blocked",
+          "s": "2026-03-27",
+          "e": "2026-04-12",
+          "nt": "After HVAC + flooring"
+        },
+        "t11": {
+          "st": "inprogress",
+          "s": "2026-03-22",
+          "e": "2026-04-07",
+          "nt": "Switches, panels, smart home, lighting"
+        },
+        "t19": {
+          "st": "pending",
+          "s": "2026-04-08",
+          "e": "2026-04-27",
+          "nt": "Smoke, extinguishers, emergency lighting"
+        },
+        "t20": {
+          "st": "pending",
+          "s": "2026-04-08",
+          "e": "2026-05-02",
+          "nt": "Phased - unit complete April"
+        },
+        "t6": {
+          "st": "blocked",
+          "s": "2026-03-15",
+          "e": "2026-03-29",
+          "nt": "After plumbing + electrical rough-in"
+        },
+        "t7": {
+          "st": "pending",
+          "s": "2026-03-27",
+          "e": "2026-04-12",
+          "nt": "After HVAC complete - client chosen"
+        },
+        "t8": {
+          "st": "pending",
+          "s": "2026-04-12",
+          "e": "2026-04-16",
+          "nt": "4 days - after flooring complete"
+        },
+        "t9": {
+          "st": "critical",
+          "s": "2026-04-01",
+          "e": "2026-04-17",
+          "nt": "Selection meeting needed - CRITICAL PATH"
+        },
+        "t14": {
+          "st": "pending",
+          "s": "2026-05-08",
+          "e": "2026-05-12",
+          "nt": "4 days - after windows installed"
+        },
+        "t4": {
+          "st": "pending",
+          "s": "2026-04-08",
+          "e": "2026-04-17",
+          "nt": "Ordered - delivery early April"
+        },
+        "t5": {
+          "st": "pending",
+          "s": "2026-04-14",
+          "e": "2026-04-16",
+          "nt": "Ordered - 2 days install"
+        },
+        "t3": {
+          "st": "pending",
+          "s": "2026-05-04",
+          "e": "2026-05-12",
+          "nt": "Exalco - delivery end April, 5 days"
+        },
+        "t13": {
+          "st": "pending",
+          "s": "2026-05-04",
+          "e": "2026-05-09",
+          "nt": "5 days installation"
+        },
+        "t18": {
+          "st": "inprogress",
+          "s": "2026-02-22",
+          "e": "2026-04-07",
+          "nt": "EV station for Fatouros included"
+        },
+        "t17": {
+          "st": "pending",
+          "s": "2026-05-08",
+          "e": "2026-08-07",
+          "nt": "Lobby, hallways, stairwell"
+        },
+        "pv": {
+          "st": "pending",
+          "s": "2026-06-08",
+          "e": "2026-07-22",
+          "nt": "Does not affect unit delivery"
+        },
+        "pent": {
+          "st": "pending",
+          "s": "2026-04-08",
+          "e": "2026-05-07",
+          "nt": "160sqm maisonette - independent"
+        },
+        "t24": {
+          "st": "pending",
+          "s": "2026-04-27",
+          "e": "2026-05-04",
+          "nt": "1 week prior to handover"
+        },
+        "t23": {
+          "st": "pending",
+          "s": "2026-05-02",
+          "e": "2026-05-07",
+          "nt": "Urban Planning inspector - we schedule"
+        },
+        "t22": {
+          "st": "pending",
+          "s": "2026-06-08",
+          "e": "2026-08-07",
+          "nt": "End of construction - full package"
+        },
+        "t21": {
+          "st": "pending",
+          "s": "2026-05-08",
+          "e": "2026-07-22",
+          "nt": "Phased May-July"
+        }
+      },
+      "milestones": [],
+      "payments": [],
+      "documents": [],
+      "photos": [],
+      "commLog": [],
+      "purchase": {
+        "price": null,
+        "currency": "EUR",
+        "buyer": "[CLIENT NAME]",
+        "contractDate": null,
+        "notary": null,
+        "lawyer": null,
+        "status": "pre-contract"
+      },
+      "snagList": [],
+      "customCategories": [],
+      "noteTranslations": {
+        "en": {
+          "action": {
+            "label": "Action Required",
+            "text": "Bathroom fixtures and fittings selection meeting must be scheduled immediately. Critical path for handover."
+          },
+          "paint": {
+            "label": "Pending Decision",
+            "text": "Interior paint colours to be selected by client during bathroom fixtures meeting. 4-day job after windows."
+          },
+          "facade": {
+            "label": "Pending Decision",
+            "text": "Exterior facade: painted finish OR PVC paneling — decision required. Both LEED compatible."
+          },
+          "ev": {
+            "label": "EV Charging",
+            "text": "Dedicated EV charging station included in basement/parking scope."
+          },
+          "smartHome": {
+            "label": "Smart Home",
+            "text": "All smart home items ordered. Configuration session after move-in. Client must be present."
+          },
+          "leed": {
+            "label": "LEED Platinum",
+            "text": "Certification as complete package at end of construction. Energy audits: 6mo, 12mo, 3yr, 5yr."
+          }
+        },
+        "el": {
+          "action": {
+            "label": "Απαιτείται Ενέργεια",
+            "text": "Συνάντηση επιλογής ειδών υγιεινής πρέπει να προγραμματιστεί άμεσα. Κρίσιμη διαδρομή για παράδοση."
+          },
+          "paint": {
+            "label": "Εκκρεμείς Αποφάσεις",
+            "text": "Τα χρώματα εσωτερικής βαφής θα επιλεγούν από τον πελάτη κατά τη συνάντηση. 4 ημέρες μετά τα κουφώματα."
+          },
+          "facade": {
+            "label": "Εκκρεμείς Αποφάσεις",
+            "text": "Εξωτερική πρόσοψη: βαφή ή επένδυση PVC — απαιτείται απόφαση. Συμβατά με LEED Platinum."
+          },
+          "ev": {
+            "label": "Φόρτιση EV",
+            "text": "Αποκλειστικός σταθμός φόρτισης EV στο υπόγειο/πάρκινγκ."
+          },
+          "smartHome": {
+            "label": "Έξυπνο Σπίτι",
+            "text": "Όλα τα στοιχεία έξυπνου σπιτιού παραγγελθέντα. Συνεδρία ρύθμισης μετά τη μετοίκηση. Ο πελάτης πρέπει να είναι παρών."
+          },
+          "leed": {
+            "label": "LEED Platinum",
+            "text": "Πιστοποίηση ως πλήρες πακέτο στο τέλος κατασκευής. Ενεργειακοί έλεγχοι: 6μηνο, 12μηνο, 3ετία, 5ετία."
+          }
+        }
+      },
+      "translations": {
+        "t1": [
+          "Structural / Shell",
+          "Δομή / Κέλυφος"
+        ],
+        "t2": [
+          "Waterproofing & Insulation",
+          "Υδροστέγανο & Μόνωση"
+        ],
+        "t3": [
+          "Plaster / Mortar",
+          "Κονίαμα / Τσιμεντοκονία"
+        ],
+        "t4": [
+          "Windows & External Doors",
+          "Κουφώματα & Εξωτερικές Πόρτες"
+        ],
+        "t5": [
+          "Electrical - Rough In",
+          "Ηλεκτρολογικά - Πρώτη Εγκατάσταση"
+        ],
+        "t6": [
+          "Plumbing - Rough In",
+          "Υδραυλικά - Πρώτη Εγκατάσταση"
+        ],
+        "t7": [
+          "HVAC - Ductwork",
+          "Κλιματισμός - Αγωγοί"
+        ],
+        "t8": [
+          "Underfloor Heating",
+          "Κεντρικό Θέρμανση Δαπέδου"
+        ],
+        "t9": [
+          "Floor Screed",
+          "Σκυρόδεμα Δαπέδου"
+        ],
+        "t10": [
+          "Tiling - Floor & Wall",
+          "Ψηφιδωτά - Δάπεδο & Τοίχοι"
+        ],
+        "t11": [
+          "Joinery / Doors Interior",
+          "Ξυλουργική / Εσωτερικές Πόρτες"
+        ],
+        "t12": [
+          "Kitchen Cabinetry",
+          "Κουζίνα"
+        ],
+        "t13": [
+          "Sanitary Ware",
+          "Είδη Υγιεινής"
+        ],
+        "t14": [
+          "Electrical - Fixtures",
+          "Ηλεκτρολογικά - Φωτισμός & Πρίζες"
+        ],
+        "t15": [
+          "Exterior Facade / Painting",
+          "Εξωτερική Πρόσοψη / Βαφή"
+        ],
+        "t16": [
+          "Balcony Railings & Glazing",
+          "Μπαλκονιέρες & Γυαλιά"
+        ],
+        "t17": [
+          "Interior Painting",
+          "Εσωτερική Βαφή"
+        ],
+        "t18": [
+          "Elevator Installation",
+          "Εγκατάσταση Ανελκυστήρα"
+        ],
+        "t19": [
+          "Final Electrical - Fixtures & Switches",
+          "Τελικά Ηλεκτρολογικά - Φωτισμός & Διακόπτες"
+        ],
+        "t20": [
+          "Final Plumbing - Taps & Accessories",
+          "Τελικά Υδραυλικά - Βρύσες & Εξαρτήματα"
+        ],
+        "t21": [
+          "Appliance Installation",
+          "Εγκατάσταση Συσκευών"
+        ],
+        "t22": [
+          "Smart Home / Automation",
+          "Έξυπνο Σπίτι / Αυτοματισμός"
+        ],
+        "t23": [
+          "Final Cleaning",
+          "Τελικός Καθαρισμός"
+        ],
+        "t24": [
+          "Punch List / Snagging",
+          "Λίστα Ελλειμμάτων"
+        ],
+        "t25": [
+          "Inspections / CO",
+          "Έλεγχοι / Άδεια Χρήσης"
+        ],
+        "t26": [
+          "Client Handover",
+          "Παράδοση Πελάτη"
+        ],
+        "t27": [
+          "Post-Handover Defect Liability",
+          "Εγγύηση Μετά την Παράδοση"
+        ]
+      }
+    },
+    "3b": {
+      "name": "Solarus",
+      "floor": "3",
+      "size_m2": 99,
+      "client": "[CLIENT NAME]",
+      "token": "lm-3b-solarus-2026",
+      "handover": "[TBD]",
+      "handoverDate": null,
+      "notes": {
+        "action": "Bathroom fixtures selection meeting with Fatouros/Diakatou must be scheduled immediately. Critical path for May handover.",
+        "paint": "Interior paint colours to be selected during bathroom fixtures meeting.",
+        "facade": "Exterior facade: painted finish OR PVC paneling - decision required.",
+        "ev": "Dedicated EV charging station included in basement/parking scope.",
+        "smartHome": "All smart home items ordered. Client configuration session required prior to move-in. Client must be present.",
+        "leed": "Certification submitted as complete package at end of construction. Energy audits at 6mo, 12mo, 3yr, 5yr."
+      },
+      "tasks": {
+        "t1": {
+          "st": "complete",
+          "s": "2026-02-08",
+          "e": "2026-02-17",
+          "nt": "Concrete, masonry, openings"
+        },
+        "t2": {
+          "st": "pending",
+          "s": "2026-03-16",
+          "e": "2026-04-03",
+          "nt": "Exterior + balcony + wet areas"
+        },
+        "t16": {
+          "st": "pending",
+          "s": "2026-04-13",
+          "e": "2026-04-20",
+          "nt": "Exalco glass railings"
+        },
+        "t15": {
+          "st": "pending",
+          "s": "2026-05-04",
+          "e": "2026-05-17",
+          "nt": "Painted or PVC - TBD"
+        },
+        "hvac": {
+          "st": "inprogress",
+          "s": "2026-02-25",
+          "e": "2026-03-20",
+          "nt": "UFH, heat pump, FCUs - unblocks flooring"
+        },
+        "hrv": {
+          "st": "inprogress",
+          "s": "2026-02-22",
+          "e": "2026-03-07",
+          "nt": "Ceiling units + ducting"
+        },
+        "t10": {
+          "st": "blocked",
+          "s": "2026-03-27",
+          "e": "2026-04-12",
+          "nt": "After HVAC + flooring"
+        },
+        "t11": {
+          "st": "inprogress",
+          "s": "2026-03-22",
+          "e": "2026-04-07",
+          "nt": "Switches, panels, smart home, lighting"
+        },
+        "t19": {
+          "st": "pending",
+          "s": "2026-04-08",
+          "e": "2026-04-27",
+          "nt": "Smoke, extinguishers, emergency lighting"
+        },
+        "t20": {
+          "st": "pending",
+          "s": "2026-04-08",
+          "e": "2026-05-02",
+          "nt": "Phased - unit complete April"
+        },
+        "t6": {
+          "st": "blocked",
+          "s": "2026-03-15",
+          "e": "2026-03-29",
+          "nt": "After plumbing + electrical rough-in"
+        },
+        "t7": {
+          "st": "pending",
+          "s": "2026-03-27",
+          "e": "2026-04-12",
+          "nt": "After HVAC complete - client chosen"
+        },
+        "t8": {
+          "st": "pending",
+          "s": "2026-04-12",
+          "e": "2026-04-16",
+          "nt": "4 days - after flooring complete"
+        },
+        "t9": {
+          "st": "critical",
+          "s": "2026-04-01",
+          "e": "2026-04-17",
+          "nt": "Selection meeting needed - CRITICAL PATH"
+        },
+        "t14": {
+          "st": "pending",
+          "s": "2026-05-08",
+          "e": "2026-05-12",
+          "nt": "4 days - after windows installed"
+        },
+        "t4": {
+          "st": "pending",
+          "s": "2026-04-08",
+          "e": "2026-04-17",
+          "nt": "Ordered - delivery early April"
+        },
+        "t5": {
+          "st": "pending",
+          "s": "2026-04-14",
+          "e": "2026-04-16",
+          "nt": "Ordered - 2 days install"
+        },
+        "t3": {
+          "st": "pending",
+          "s": "2026-05-04",
+          "e": "2026-05-12",
+          "nt": "Exalco - delivery end April, 5 days"
+        },
+        "t13": {
+          "st": "pending",
+          "s": "2026-05-04",
+          "e": "2026-05-09",
+          "nt": "5 days installation"
+        },
+        "t18": {
+          "st": "inprogress",
+          "s": "2026-02-22",
+          "e": "2026-04-07",
+          "nt": "EV station for Fatouros included"
+        },
+        "t17": {
+          "st": "pending",
+          "s": "2026-05-08",
+          "e": "2026-08-07",
+          "nt": "Lobby, hallways, stairwell"
+        },
+        "pv": {
+          "st": "pending",
+          "s": "2026-06-08",
+          "e": "2026-07-22",
+          "nt": "Does not affect unit delivery"
+        },
+        "pent": {
+          "st": "pending",
+          "s": "2026-04-08",
+          "e": "2026-05-07",
+          "nt": "160sqm maisonette - independent"
+        },
+        "t24": {
+          "st": "pending",
+          "s": "2026-04-27",
+          "e": "2026-05-04",
+          "nt": "1 week prior to handover"
+        },
+        "t23": {
+          "st": "pending",
+          "s": "2026-05-02",
+          "e": "2026-05-07",
+          "nt": "Urban Planning inspector - we schedule"
+        },
+        "t22": {
+          "st": "pending",
+          "s": "2026-06-08",
+          "e": "2026-08-07",
+          "nt": "End of construction - full package"
+        },
+        "t21": {
+          "st": "pending",
+          "s": "2026-05-08",
+          "e": "2026-07-22",
+          "nt": "Phased May-July"
+        }
+      },
+      "milestones": [],
+      "payments": [],
+      "documents": [],
+      "photos": [],
+      "commLog": [],
+      "purchase": {
+        "price": null,
+        "currency": "EUR",
+        "buyer": "[CLIENT NAME]",
+        "contractDate": null,
+        "notary": null,
+        "lawyer": null,
+        "status": "pre-contract"
+      },
+      "snagList": [],
+      "customCategories": [],
+      "noteTranslations": {
+        "en": {
+          "action": {
+            "label": "Action Required",
+            "text": "Bathroom fixtures and fittings selection meeting must be scheduled immediately. Critical path for handover."
+          },
+          "paint": {
+            "label": "Pending Decision",
+            "text": "Interior paint colours to be selected by client during bathroom fixtures meeting. 4-day job after windows."
+          },
+          "facade": {
+            "label": "Pending Decision",
+            "text": "Exterior facade: painted finish OR PVC paneling — decision required. Both LEED compatible."
+          },
+          "ev": {
+            "label": "EV Charging",
+            "text": "Dedicated EV charging station included in basement/parking scope."
+          },
+          "smartHome": {
+            "label": "Smart Home",
+            "text": "All smart home items ordered. Configuration session after move-in. Client must be present."
+          },
+          "leed": {
+            "label": "LEED Platinum",
+            "text": "Certification as complete package at end of construction. Energy audits: 6mo, 12mo, 3yr, 5yr."
+          }
+        },
+        "el": {
+          "action": {
+            "label": "Απαιτείται Ενέργεια",
+            "text": "Συνάντηση επιλογής ειδών υγιεινής πρέπει να προγραμματιστεί άμεσα. Κρίσιμη διαδρομή για παράδοση."
+          },
+          "paint": {
+            "label": "Εκκρεμείς Αποφάσεις",
+            "text": "Τα χρώματα εσωτερικής βαφής θα επιλεγούν από τον πελάτη κατά τη συνάντηση. 4 ημέρες μετά τα κουφώματα."
+          },
+          "facade": {
+            "label": "Εκκρεμείς Αποφάσεις",
+            "text": "Εξωτερική πρόσοψη: βαφή ή επένδυση PVC — απαιτείται απόφαση. Συμβατά με LEED Platinum."
+          },
+          "ev": {
+            "label": "Φόρτιση EV",
+            "text": "Αποκλειστικός σταθμός φόρτισης EV στο υπόγειο/πάρκινγκ."
+          },
+          "smartHome": {
+            "label": "Έξυπνο Σπίτι",
+            "text": "Όλα τα στοιχεία έξυπνου σπιτιού παραγγελθέντα. Συνεδρία ρύθμισης μετά τη μετοίκηση. Ο πελάτης πρέπει να είναι παρών."
+          },
+          "leed": {
+            "label": "LEED Platinum",
+            "text": "Πιστοποίηση ως πλήρες πακέτο στο τέλος κατασκευής. Ενεργειακοί έλεγχοι: 6μηνο, 12μηνο, 3ετία, 5ετία."
+          }
+        }
+      },
+      "translations": {
+        "t1": [
+          "Structural / Shell",
+          "Δομή / Κέλυφος"
+        ],
+        "t2": [
+          "Waterproofing & Insulation",
+          "Υδροστέγανο & Μόνωση"
+        ],
+        "t3": [
+          "Plaster / Mortar",
+          "Κονίαμα / Τσιμεντοκονία"
+        ],
+        "t4": [
+          "Windows & External Doors",
+          "Κουφώματα & Εξωτερικές Πόρτες"
+        ],
+        "t5": [
+          "Electrical - Rough In",
+          "Ηλεκτρολογικά - Πρώτη Εγκατάσταση"
+        ],
+        "t6": [
+          "Plumbing - Rough In",
+          "Υδραυλικά - Πρώτη Εγκατάσταση"
+        ],
+        "t7": [
+          "HVAC - Ductwork",
+          "Κλιματισμός - Αγωγοί"
+        ],
+        "t8": [
+          "Underfloor Heating",
+          "Κεντρικό Θέρμανση Δαπέδου"
+        ],
+        "t9": [
+          "Floor Screed",
+          "Σκυρόδεμα Δαπέδου"
+        ],
+        "t10": [
+          "Tiling - Floor & Wall",
+          "Ψηφιδωτά - Δάπεδο & Τοίχοι"
+        ],
+        "t11": [
+          "Joinery / Doors Interior",
+          "Ξυλουργική / Εσωτερικές Πόρτες"
+        ],
+        "t12": [
+          "Kitchen Cabinetry",
+          "Κουζίνα"
+        ],
+        "t13": [
+          "Sanitary Ware",
+          "Είδη Υγιεινής"
+        ],
+        "t14": [
+          "Electrical - Fixtures",
+          "Ηλεκτρολογικά - Φωτισμός & Πρίζες"
+        ],
+        "t15": [
+          "Exterior Facade / Painting",
+          "Εξωτερική Πρόσοψη / Βαφή"
+        ],
+        "t16": [
+          "Balcony Railings & Glazing",
+          "Μπαλκονιέρες & Γυαλιά"
+        ],
+        "t17": [
+          "Interior Painting",
+          "Εσωτερική Βαφή"
+        ],
+        "t18": [
+          "Elevator Installation",
+          "Εγκατάσταση Ανελκυστήρα"
+        ],
+        "t19": [
+          "Final Electrical - Fixtures & Switches",
+          "Τελικά Ηλεκτρολογικά - Φωτισμός & Διακόπτες"
+        ],
+        "t20": [
+          "Final Plumbing - Taps & Accessories",
+          "Τελικά Υδραυλικά - Βρύσες & Εξαρτήματα"
+        ],
+        "t21": [
+          "Appliance Installation",
+          "Εγκατάσταση Συσκευών"
+        ],
+        "t22": [
+          "Smart Home / Automation",
+          "Έξυπνο Σπίτι / Αυτοματισμός"
+        ],
+        "t23": [
+          "Final Cleaning",
+          "Τελικός Καθαρισμός"
+        ],
+        "t24": [
+          "Punch List / Snagging",
+          "Λίστα Ελλειμμάτων"
+        ],
+        "t25": [
+          "Inspections / CO",
+          "Έλεγχοι / Άδεια Χρήσης"
+        ],
+        "t26": [
+          "Client Handover",
+          "Παράδοση Πελάτη"
+        ],
+        "t27": [
+          "Post-Handover Defect Liability",
+          "Εγγύηση Μετά την Παράδοση"
+        ]
+      }
+    },
+    "4a": {
+      "name": "Radiance",
+      "floor": "4",
+      "size_m2": 64,
+      "client": "[CLIENT NAME]",
+      "token": "lm-4a-radiance-2026",
+      "handover": "[TBD]",
+      "handoverDate": null,
+      "notes": {
+        "action": "Bathroom fixtures selection meeting with Fatouros/Diakatou must be scheduled immediately. Critical path for May handover.",
+        "paint": "Interior paint colours to be selected during bathroom fixtures meeting.",
+        "facade": "Exterior facade: painted finish OR PVC paneling - decision required.",
+        "ev": "Dedicated EV charging station included in basement/parking scope.",
+        "smartHome": "All smart home items ordered. Client configuration session required prior to move-in. Client must be present.",
+        "leed": "Certification submitted as complete package at end of construction. Energy audits at 6mo, 12mo, 3yr, 5yr."
+      },
+      "tasks": {
+        "t1": {
+          "st": "complete",
+          "s": "2026-02-08",
+          "e": "2026-02-17",
+          "nt": "Concrete, masonry, openings"
+        },
+        "t2": {
+          "st": "pending",
+          "s": "2026-03-16",
+          "e": "2026-04-03",
+          "nt": "Exterior + balcony + wet areas"
+        },
+        "t16": {
+          "st": "pending",
+          "s": "2026-04-13",
+          "e": "2026-04-20",
+          "nt": "Exalco glass railings"
+        },
+        "t15": {
+          "st": "pending",
+          "s": "2026-05-04",
+          "e": "2026-05-17",
+          "nt": "Painted or PVC - TBD"
+        },
+        "hvac": {
+          "st": "inprogress",
+          "s": "2026-02-25",
+          "e": "2026-03-20",
+          "nt": "UFH, heat pump, FCUs - unblocks flooring"
+        },
+        "hrv": {
+          "st": "inprogress",
+          "s": "2026-02-22",
+          "e": "2026-03-07",
+          "nt": "Ceiling units + ducting"
+        },
+        "t10": {
+          "st": "blocked",
+          "s": "2026-03-27",
+          "e": "2026-04-12",
+          "nt": "After HVAC + flooring"
+        },
+        "t11": {
+          "st": "inprogress",
+          "s": "2026-03-22",
+          "e": "2026-04-07",
+          "nt": "Switches, panels, smart home, lighting"
+        },
+        "t19": {
+          "st": "pending",
+          "s": "2026-04-08",
+          "e": "2026-04-27",
+          "nt": "Smoke, extinguishers, emergency lighting"
+        },
+        "t20": {
+          "st": "pending",
+          "s": "2026-04-08",
+          "e": "2026-05-02",
+          "nt": "Phased - unit complete April"
+        },
+        "t6": {
+          "st": "blocked",
+          "s": "2026-03-15",
+          "e": "2026-03-29",
+          "nt": "After plumbing + electrical rough-in"
+        },
+        "t7": {
+          "st": "pending",
+          "s": "2026-03-27",
+          "e": "2026-04-12",
+          "nt": "After HVAC complete - client chosen"
+        },
+        "t8": {
+          "st": "pending",
+          "s": "2026-04-12",
+          "e": "2026-04-16",
+          "nt": "4 days - after flooring complete"
+        },
+        "t9": {
+          "st": "critical",
+          "s": "2026-04-01",
+          "e": "2026-04-17",
+          "nt": "Selection meeting needed - CRITICAL PATH"
+        },
+        "t14": {
+          "st": "pending",
+          "s": "2026-05-08",
+          "e": "2026-05-12",
+          "nt": "4 days - after windows installed"
+        },
+        "t4": {
+          "st": "pending",
+          "s": "2026-04-08",
+          "e": "2026-04-17",
+          "nt": "Ordered - delivery early April"
+        },
+        "t5": {
+          "st": "pending",
+          "s": "2026-04-14",
+          "e": "2026-04-16",
+          "nt": "Ordered - 2 days install"
+        },
+        "t3": {
+          "st": "pending",
+          "s": "2026-05-04",
+          "e": "2026-05-12",
+          "nt": "Exalco - delivery end April, 5 days"
+        },
+        "t13": {
+          "st": "pending",
+          "s": "2026-05-04",
+          "e": "2026-05-09",
+          "nt": "5 days installation"
+        },
+        "t18": {
+          "st": "inprogress",
+          "s": "2026-02-22",
+          "e": "2026-04-07",
+          "nt": "EV station for Fatouros included"
+        },
+        "t17": {
+          "st": "pending",
+          "s": "2026-05-08",
+          "e": "2026-08-07",
+          "nt": "Lobby, hallways, stairwell"
+        },
+        "pv": {
+          "st": "pending",
+          "s": "2026-06-08",
+          "e": "2026-07-22",
+          "nt": "Does not affect unit delivery"
+        },
+        "pent": {
+          "st": "pending",
+          "s": "2026-04-08",
+          "e": "2026-05-07",
+          "nt": "160sqm maisonette - independent"
+        },
+        "t24": {
+          "st": "pending",
+          "s": "2026-04-27",
+          "e": "2026-05-04",
+          "nt": "1 week prior to handover"
+        },
+        "t23": {
+          "st": "pending",
+          "s": "2026-05-02",
+          "e": "2026-05-07",
+          "nt": "Urban Planning inspector - we schedule"
+        },
+        "t22": {
+          "st": "pending",
+          "s": "2026-06-08",
+          "e": "2026-08-07",
+          "nt": "End of construction - full package"
+        },
+        "t21": {
+          "st": "pending",
+          "s": "2026-05-08",
+          "e": "2026-07-22",
+          "nt": "Phased May-July"
+        }
+      },
+      "milestones": [],
+      "payments": [],
+      "documents": [],
+      "photos": [],
+      "commLog": [],
+      "purchase": {
+        "price": null,
+        "currency": "EUR",
+        "buyer": "[CLIENT NAME]",
+        "contractDate": null,
+        "notary": null,
+        "lawyer": null,
+        "status": "pre-contract"
+      },
+      "snagList": [],
+      "customCategories": [],
+      "noteTranslations": {
+        "en": {
+          "action": {
+            "label": "Action Required",
+            "text": "Bathroom fixtures and fittings selection meeting must be scheduled immediately. Critical path for handover."
+          },
+          "paint": {
+            "label": "Pending Decision",
+            "text": "Interior paint colours to be selected by client during bathroom fixtures meeting. 4-day job after windows."
+          },
+          "facade": {
+            "label": "Pending Decision",
+            "text": "Exterior facade: painted finish OR PVC paneling — decision required. Both LEED compatible."
+          },
+          "ev": {
+            "label": "EV Charging",
+            "text": "Dedicated EV charging station included in basement/parking scope."
+          },
+          "smartHome": {
+            "label": "Smart Home",
+            "text": "All smart home items ordered. Configuration session after move-in. Client must be present."
+          },
+          "leed": {
+            "label": "LEED Platinum",
+            "text": "Certification as complete package at end of construction. Energy audits: 6mo, 12mo, 3yr, 5yr."
+          }
+        },
+        "el": {
+          "action": {
+            "label": "Απαιτείται Ενέργεια",
+            "text": "Συνάντηση επιλογής ειδών υγιεινής πρέπει να προγραμματιστεί άμεσα. Κρίσιμη διαδρομή για παράδοση."
+          },
+          "paint": {
+            "label": "Εκκρεμείς Αποφάσεις",
+            "text": "Τα χρώματα εσωτερικής βαφής θα επιλεγούν από τον πελάτη κατά τη συνάντηση. 4 ημέρες μετά τα κουφώματα."
+          },
+          "facade": {
+            "label": "Εκκρεμείς Αποφάσεις",
+            "text": "Εξωτερική πρόσοψη: βαφή ή επένδυση PVC — απαιτείται απόφαση. Συμβατά με LEED Platinum."
+          },
+          "ev": {
+            "label": "Φόρτιση EV",
+            "text": "Αποκλειστικός σταθμός φόρτισης EV στο υπόγειο/πάρκινγκ."
+          },
+          "smartHome": {
+            "label": "Έξυπνο Σπίτι",
+            "text": "Όλα τα στοιχεία έξυπνου σπιτιού παραγγελθέντα. Συνεδρία ρύθμισης μετά τη μετοίκηση. Ο πελάτης πρέπει να είναι παρών."
+          },
+          "leed": {
+            "label": "LEED Platinum",
+            "text": "Πιστοποίηση ως πλήρες πακέτο στο τέλος κατασκευής. Ενεργειακοί έλεγχοι: 6μηνο, 12μηνο, 3ετία, 5ετία."
+          }
+        }
+      },
+      "translations": {
+        "t1": [
+          "Structural / Shell",
+          "Δομή / Κέλυφος"
+        ],
+        "t2": [
+          "Waterproofing & Insulation",
+          "Υδροστέγανο & Μόνωση"
+        ],
+        "t3": [
+          "Plaster / Mortar",
+          "Κονίαμα / Τσιμεντοκονία"
+        ],
+        "t4": [
+          "Windows & External Doors",
+          "Κουφώματα & Εξωτερικές Πόρτες"
+        ],
+        "t5": [
+          "Electrical - Rough In",
+          "Ηλεκτρολογικά - Πρώτη Εγκατάσταση"
+        ],
+        "t6": [
+          "Plumbing - Rough In",
+          "Υδραυλικά - Πρώτη Εγκατάσταση"
+        ],
+        "t7": [
+          "HVAC - Ductwork",
+          "Κλιματισμός - Αγωγοί"
+        ],
+        "t8": [
+          "Underfloor Heating",
+          "Κεντρικό Θέρμανση Δαπέδου"
+        ],
+        "t9": [
+          "Floor Screed",
+          "Σκυρόδεμα Δαπέδου"
+        ],
+        "t10": [
+          "Tiling - Floor & Wall",
+          "Ψηφιδωτά - Δάπεδο & Τοίχοι"
+        ],
+        "t11": [
+          "Joinery / Doors Interior",
+          "Ξυλουργική / Εσωτερικές Πόρτες"
+        ],
+        "t12": [
+          "Kitchen Cabinetry",
+          "Κουζίνα"
+        ],
+        "t13": [
+          "Sanitary Ware",
+          "Είδη Υγιεινής"
+        ],
+        "t14": [
+          "Electrical - Fixtures",
+          "Ηλεκτρολογικά - Φωτισμός & Πρίζες"
+        ],
+        "t15": [
+          "Exterior Facade / Painting",
+          "Εξωτερική Πρόσοψη / Βαφή"
+        ],
+        "t16": [
+          "Balcony Railings & Glazing",
+          "Μπαλκονιέρες & Γυαλιά"
+        ],
+        "t17": [
+          "Interior Painting",
+          "Εσωτερική Βαφή"
+        ],
+        "t18": [
+          "Elevator Installation",
+          "Εγκατάσταση Ανελκυστήρα"
+        ],
+        "t19": [
+          "Final Electrical - Fixtures & Switches",
+          "Τελικά Ηλεκτρολογικά - Φωτισμός & Διακόπτες"
+        ],
+        "t20": [
+          "Final Plumbing - Taps & Accessories",
+          "Τελικά Υδραυλικά - Βρύσες & Εξαρτήματα"
+        ],
+        "t21": [
+          "Appliance Installation",
+          "Εγκατάσταση Συσκευών"
+        ],
+        "t22": [
+          "Smart Home / Automation",
+          "Έξυπνο Σπίτι / Αυτοματισμός"
+        ],
+        "t23": [
+          "Final Cleaning",
+          "Τελικός Καθαρισμός"
+        ],
+        "t24": [
+          "Punch List / Snagging",
+          "Λίστα Ελλειμμάτων"
+        ],
+        "t25": [
+          "Inspections / CO",
+          "Έλεγχοι / Άδεια Χρήσης"
+        ],
+        "t26": [
+          "Client Handover",
+          "Παράδοση Πελάτη"
+        ],
+        "t27": [
+          "Post-Handover Defect Liability",
+          "Εγγύηση Μετά την Παράδοση"
+        ]
+      }
+    },
+    "4b": {
+      "name": "Elysium",
+      "floor": "4",
+      "size_m2": 70,
+      "client": "[CLIENT NAME]",
+      "token": "lm-4b-elysium-2026",
+      "handover": "[TBD]",
+      "handoverDate": null,
+      "notes": {
+        "action": "Bathroom fixtures selection meeting with Fatouros/Diakatou must be scheduled immediately. Critical path for May handover.",
+        "paint": "Interior paint colours to be selected during bathroom fixtures meeting.",
+        "facade": "Exterior facade: painted finish OR PVC paneling - decision required.",
+        "ev": "Dedicated EV charging station included in basement/parking scope.",
+        "smartHome": "All smart home items ordered. Client configuration session required prior to move-in. Client must be present.",
+        "leed": "Certification submitted as complete package at end of construction. Energy audits at 6mo, 12mo, 3yr, 5yr."
+      },
+      "tasks": {
+        "t1": {
+          "st": "complete",
+          "s": "2026-02-08",
+          "e": "2026-02-17",
+          "nt": "Concrete, masonry, openings"
+        },
+        "t2": {
+          "st": "pending",
+          "s": "2026-03-16",
+          "e": "2026-04-03",
+          "nt": "Exterior + balcony + wet areas"
+        },
+        "t16": {
+          "st": "pending",
+          "s": "2026-04-13",
+          "e": "2026-04-20",
+          "nt": "Exalco glass railings"
+        },
+        "t15": {
+          "st": "pending",
+          "s": "2026-05-04",
+          "e": "2026-05-17",
+          "nt": "Painted or PVC - TBD"
+        },
+        "hvac": {
+          "st": "inprogress",
+          "s": "2026-02-25",
+          "e": "2026-03-20",
+          "nt": "UFH, heat pump, FCUs - unblocks flooring"
+        },
+        "hrv": {
+          "st": "inprogress",
+          "s": "2026-02-22",
+          "e": "2026-03-07",
+          "nt": "Ceiling units + ducting"
+        },
+        "t10": {
+          "st": "blocked",
+          "s": "2026-03-27",
+          "e": "2026-04-12",
+          "nt": "After HVAC + flooring"
+        },
+        "t11": {
+          "st": "inprogress",
+          "s": "2026-03-22",
+          "e": "2026-04-07",
+          "nt": "Switches, panels, smart home, lighting"
+        },
+        "t19": {
+          "st": "pending",
+          "s": "2026-04-08",
+          "e": "2026-04-27",
+          "nt": "Smoke, extinguishers, emergency lighting"
+        },
+        "t20": {
+          "st": "pending",
+          "s": "2026-04-08",
+          "e": "2026-05-02",
+          "nt": "Phased - unit complete April"
+        },
+        "t6": {
+          "st": "blocked",
+          "s": "2026-03-15",
+          "e": "2026-03-29",
+          "nt": "After plumbing + electrical rough-in"
+        },
+        "t7": {
+          "st": "pending",
+          "s": "2026-03-27",
+          "e": "2026-04-12",
+          "nt": "After HVAC complete - client chosen"
+        },
+        "t8": {
+          "st": "pending",
+          "s": "2026-04-12",
+          "e": "2026-04-16",
+          "nt": "4 days - after flooring complete"
+        },
+        "t9": {
+          "st": "critical",
+          "s": "2026-04-01",
+          "e": "2026-04-17",
+          "nt": "Selection meeting needed - CRITICAL PATH"
+        },
+        "t14": {
+          "st": "pending",
+          "s": "2026-05-08",
+          "e": "2026-05-12",
+          "nt": "4 days - after windows installed"
+        },
+        "t4": {
+          "st": "pending",
+          "s": "2026-04-08",
+          "e": "2026-04-17",
+          "nt": "Ordered - delivery early April"
+        },
+        "t5": {
+          "st": "pending",
+          "s": "2026-04-14",
+          "e": "2026-04-16",
+          "nt": "Ordered - 2 days install"
+        },
+        "t3": {
+          "st": "pending",
+          "s": "2026-05-04",
+          "e": "2026-05-12",
+          "nt": "Exalco - delivery end April, 5 days"
+        },
+        "t13": {
+          "st": "pending",
+          "s": "2026-05-04",
+          "e": "2026-05-09",
+          "nt": "5 days installation"
+        },
+        "t18": {
+          "st": "inprogress",
+          "s": "2026-02-22",
+          "e": "2026-04-07",
+          "nt": "EV station for Fatouros included"
+        },
+        "t17": {
+          "st": "pending",
+          "s": "2026-05-08",
+          "e": "2026-08-07",
+          "nt": "Lobby, hallways, stairwell"
+        },
+        "pv": {
+          "st": "pending",
+          "s": "2026-06-08",
+          "e": "2026-07-22",
+          "nt": "Does not affect unit delivery"
+        },
+        "pent": {
+          "st": "pending",
+          "s": "2026-04-08",
+          "e": "2026-05-07",
+          "nt": "160sqm maisonette - independent"
+        },
+        "t24": {
+          "st": "pending",
+          "s": "2026-04-27",
+          "e": "2026-05-04",
+          "nt": "1 week prior to handover"
+        },
+        "t23": {
+          "st": "pending",
+          "s": "2026-05-02",
+          "e": "2026-05-07",
+          "nt": "Urban Planning inspector - we schedule"
+        },
+        "t22": {
+          "st": "pending",
+          "s": "2026-06-08",
+          "e": "2026-08-07",
+          "nt": "End of construction - full package"
+        },
+        "t21": {
+          "st": "pending",
+          "s": "2026-05-08",
+          "e": "2026-07-22",
+          "nt": "Phased May-July"
+        }
+      },
+      "milestones": [],
+      "payments": [],
+      "documents": [],
+      "photos": [],
+      "commLog": [],
+      "purchase": {
+        "price": null,
+        "currency": "EUR",
+        "buyer": "[CLIENT NAME]",
+        "contractDate": null,
+        "notary": null,
+        "lawyer": null,
+        "status": "pre-contract"
+      },
+      "snagList": [],
+      "customCategories": [],
+      "noteTranslations": {
+        "en": {
+          "action": {
+            "label": "Action Required",
+            "text": "Bathroom fixtures and fittings selection meeting must be scheduled immediately. Critical path for handover."
+          },
+          "paint": {
+            "label": "Pending Decision",
+            "text": "Interior paint colours to be selected by client during bathroom fixtures meeting. 4-day job after windows."
+          },
+          "facade": {
+            "label": "Pending Decision",
+            "text": "Exterior facade: painted finish OR PVC paneling — decision required. Both LEED compatible."
+          },
+          "ev": {
+            "label": "EV Charging",
+            "text": "Dedicated EV charging station included in basement/parking scope."
+          },
+          "smartHome": {
+            "label": "Smart Home",
+            "text": "All smart home items ordered. Configuration session after move-in. Client must be present."
+          },
+          "leed": {
+            "label": "LEED Platinum",
+            "text": "Certification as complete package at end of construction. Energy audits: 6mo, 12mo, 3yr, 5yr."
+          }
+        },
+        "el": {
+          "action": {
+            "label": "Απαιτείται Ενέργεια",
+            "text": "Συνάντηση επιλογής ειδών υγιεινής πρέπει να προγραμματιστεί άμεσα. Κρίσιμη διαδρομή για παράδοση."
+          },
+          "paint": {
+            "label": "Εκκρεμείς Αποφάσεις",
+            "text": "Τα χρώματα εσωτερικής βαφής θα επιλεγούν από τον πελάτη κατά τη συνάντηση. 4 ημέρες μετά τα κουφώματα."
+          },
+          "facade": {
+            "label": "Εκκρεμείς Αποφάσεις",
+            "text": "Εξωτερική πρόσοψη: βαφή ή επένδυση PVC — απαιτείται απόφαση. Συμβατά με LEED Platinum."
+          },
+          "ev": {
+            "label": "Φόρτιση EV",
+            "text": "Αποκλειστικός σταθμός φόρτισης EV στο υπόγειο/πάρκινγκ."
+          },
+          "smartHome": {
+            "label": "Έξυπνο Σπίτι",
+            "text": "Όλα τα στοιχεία έξυπνου σπιτιού παραγγελθέντα. Συνεδρία ρύθμισης μετά τη μετοίκηση. Ο πελάτης πρέπει να είναι παρών."
+          },
+          "leed": {
+            "label": "LEED Platinum",
+            "text": "Πιστοποίηση ως πλήρες πακέτο στο τέλος κατασκευής. Ενεργειακοί έλεγχοι: 6μηνο, 12μηνο, 3ετία, 5ετία."
+          }
+        }
+      },
+      "translations": {
+        "t1": [
+          "Structural / Shell",
+          "Δομή / Κέλυφος"
+        ],
+        "t2": [
+          "Waterproofing & Insulation",
+          "Υδροστέγανο & Μόνωση"
+        ],
+        "t3": [
+          "Plaster / Mortar",
+          "Κονίαμα / Τσιμεντοκονία"
+        ],
+        "t4": [
+          "Windows & External Doors",
+          "Κουφώματα & Εξωτερικές Πόρτες"
+        ],
+        "t5": [
+          "Electrical - Rough In",
+          "Ηλεκτρολογικά - Πρώτη Εγκατάσταση"
+        ],
+        "t6": [
+          "Plumbing - Rough In",
+          "Υδραυλικά - Πρώτη Εγκατάσταση"
+        ],
+        "t7": [
+          "HVAC - Ductwork",
+          "Κλιματισμός - Αγωγοί"
+        ],
+        "t8": [
+          "Underfloor Heating",
+          "Κεντρικό Θέρμανση Δαπέδου"
+        ],
+        "t9": [
+          "Floor Screed",
+          "Σκυρόδεμα Δαπέδου"
+        ],
+        "t10": [
+          "Tiling - Floor & Wall",
+          "Ψηφιδωτά - Δάπεδο & Τοίχοι"
+        ],
+        "t11": [
+          "Joinery / Doors Interior",
+          "Ξυλουργική / Εσωτερικές Πόρτες"
+        ],
+        "t12": [
+          "Kitchen Cabinetry",
+          "Κουζίνα"
+        ],
+        "t13": [
+          "Sanitary Ware",
+          "Είδη Υγιεινής"
+        ],
+        "t14": [
+          "Electrical - Fixtures",
+          "Ηλεκτρολογικά - Φωτισμός & Πρίζες"
+        ],
+        "t15": [
+          "Exterior Facade / Painting",
+          "Εξωτερική Πρόσοψη / Βαφή"
+        ],
+        "t16": [
+          "Balcony Railings & Glazing",
+          "Μπαλκονιέρες & Γυαλιά"
+        ],
+        "t17": [
+          "Interior Painting",
+          "Εσωτερική Βαφή"
+        ],
+        "t18": [
+          "Elevator Installation",
+          "Εγκατάσταση Ανελκυστήρα"
+        ],
+        "t19": [
+          "Final Electrical - Fixtures & Switches",
+          "Τελικά Ηλεκτρολογικά - Φωτισμός & Διακόπτες"
+        ],
+        "t20": [
+          "Final Plumbing - Taps & Accessories",
+          "Τελικά Υδραυλικά - Βρύσες & Εξαρτήματα"
+        ],
+        "t21": [
+          "Appliance Installation",
+          "Εγκατάσταση Συσκευών"
+        ],
+        "t22": [
+          "Smart Home / Automation",
+          "Έξυπνο Σπίτι / Αυτοματισμός"
+        ],
+        "t23": [
+          "Final Cleaning",
+          "Τελικός Καθαρισμός"
+        ],
+        "t24": [
+          "Punch List / Snagging",
+          "Λίστα Ελλειμμάτων"
+        ],
+        "t25": [
+          "Inspections / CO",
+          "Έλεγχοι / Άδεια Χρήσης"
+        ],
+        "t26": [
+          "Client Handover",
+          "Παράδοση Πελάτη"
+        ],
+        "t27": [
+          "Post-Handover Defect Liability",
+          "Εγγύηση Μετά την Παράδοση"
+        ]
+      }
+    },
+    "5a": {
+      "name": "Luminara",
+      "floor": "5",
+      "size_m2": 108,
+      "client": "Fatouros / Diakatou",
+      "token": "lm-5a-fatouros-2026",
+      "handover": "Early May 2026",
+      "handoverDate": "2026-05-04",
+      "notes": {
+        "action": "Bathroom fixtures selection meeting with Fatouros/Diakatou must be scheduled immediately. Critical path for May handover.",
+        "paint": "Interior paint colours to be selected during bathroom fixtures meeting.",
+        "facade": "Exterior facade: painted finish OR PVC paneling - decision required.",
+        "ev": "Dedicated EV charging station included in basement/parking scope.",
+        "smartHome": "All smart home items ordered. Client configuration session required prior to move-in. Client must be present.",
+        "leed": "Certification submitted as complete package at end of construction. Energy audits at 6mo, 12mo, 3yr, 5yr."
+      },
+      "tasks": {
+        "t1": {
+          "st": "complete",
+          "s": "2026-02-18",
+          "e": "2026-02-27",
+          "nt": "Concrete, masonry, openings"
+        },
+        "t2": {
+          "st": "pending",
+          "s": "2026-03-13",
+          "e": "2026-03-31",
+          "nt": "Exterior + balcony + wet areas"
+        },
+        "t16": {
+          "st": "pending",
+          "s": "2026-04-13",
+          "e": "2026-04-20",
+          "nt": "Exalco glass railings"
+        },
+        "t15": {
+          "st": "pending",
+          "s": "2026-05-04",
+          "e": "2026-05-17",
+          "nt": "Painted or PVC - TBD"
+        },
+        "hvac": {
+          "st": "inprogress",
+          "s": "2026-02-25",
+          "e": "2026-03-20",
+          "nt": "UFH, heat pump, FCUs - unblocks flooring"
+        },
+        "hrv": {
+          "st": "inprogress",
+          "s": "2026-02-22",
+          "e": "2026-03-07",
+          "nt": "Ceiling units + ducting"
+        },
+        "t10": {
+          "st": "blocked",
+          "s": "2026-03-27",
+          "e": "2026-04-12",
+          "nt": "After HVAC + flooring"
+        },
+        "t11": {
+          "st": "inprogress",
+          "s": "2026-03-22",
+          "e": "2026-04-07",
+          "nt": "Switches, panels, smart home, lighting"
+        },
+        "t19": {
+          "st": "pending",
+          "s": "2026-04-08",
+          "e": "2026-04-27",
+          "nt": "Smoke, extinguishers, emergency lighting"
+        },
+        "t20": {
+          "st": "pending",
+          "s": "2026-04-08",
+          "e": "2026-05-02",
+          "nt": "Phased - unit complete April"
+        },
+        "t6": {
+          "st": "blocked",
+          "s": "2026-03-15",
+          "e": "2026-03-29",
+          "nt": "After plumbing + electrical rough-in"
+        },
+        "t7": {
+          "st": "pending",
+          "s": "2026-03-27",
+          "e": "2026-04-12",
+          "nt": "After HVAC complete - client chosen"
+        },
+        "t8": {
+          "st": "pending",
+          "s": "2026-04-12",
+          "e": "2026-04-16",
+          "nt": "4 days - after flooring complete"
+        },
+        "t9": {
+          "st": "critical",
+          "s": "2026-04-01",
+          "e": "2026-04-17",
+          "nt": "Selection meeting needed - CRITICAL PATH"
+        },
+        "t14": {
+          "st": "pending",
+          "s": "2026-05-08",
+          "e": "2026-05-12",
+          "nt": "4 days - after windows installed"
+        },
+        "t4": {
+          "st": "pending",
+          "s": "2026-04-08",
+          "e": "2026-04-17",
+          "nt": "Ordered - delivery early April"
+        },
+        "t5": {
+          "st": "pending",
+          "s": "2026-04-14",
+          "e": "2026-04-16",
+          "nt": "Ordered - 2 days install"
+        },
+        "t3": {
+          "st": "pending",
+          "s": "2026-05-04",
+          "e": "2026-05-12",
+          "nt": "Exalco - delivery end April, 5 days"
+        },
+        "t13": {
+          "st": "pending",
+          "s": "2026-05-04",
+          "e": "2026-05-09",
+          "nt": "5 days installation"
+        },
+        "t18": {
+          "st": "inprogress",
+          "s": "2026-02-22",
+          "e": "2026-04-07",
+          "nt": "EV station for Fatouros included"
+        },
+        "t17": {
+          "st": "pending",
+          "s": "2026-05-08",
+          "e": "2026-08-07",
+          "nt": "Lobby, hallways, stairwell"
+        },
+        "pv": {
+          "st": "pending",
+          "s": "2026-06-08",
+          "e": "2026-07-22",
+          "nt": "Does not affect unit delivery"
+        },
+        "pent": {
+          "st": "pending",
+          "s": "2026-04-08",
+          "e": "2026-05-07",
+          "nt": "160sqm maisonette - independent"
+        },
+        "t24": {
+          "st": "pending",
+          "s": "2026-04-27",
+          "e": "2026-05-04",
+          "nt": "1 week prior to handover"
+        },
+        "t23": {
+          "st": "pending",
+          "s": "2026-05-02",
+          "e": "2026-05-07",
+          "nt": "Urban Planning inspector - we schedule"
+        },
+        "t22": {
+          "st": "pending",
+          "s": "2026-06-08",
+          "e": "2026-08-07",
+          "nt": "End of construction - full package"
+        },
+        "t21": {
+          "st": "pending",
+          "s": "2026-05-08",
+          "e": "2026-07-22",
+          "nt": "Phased May-July"
+        }
+      },
+      "translations": {
+        "t1": [
+          "Structural / Shell",
+          "Δομή / Κέλυφος"
+        ],
+        "t2": [
+          "Waterproofing & Insulation",
+          "Υδροστέγανο & Μόνωση"
+        ],
+        "t3": [
+          "Plaster / Mortar",
+          "Κονίαμα / Τσιμεντοκονία"
+        ],
+        "t4": [
+          "Windows & External Doors",
+          "Κουφώματα & Εξωτερικές Πόρτες"
+        ],
+        "t5": [
+          "Electrical - Rough In",
+          "Ηλεκτρολογικά - Πρώτη Εγκατάσταση"
+        ],
+        "t6": [
+          "Plumbing - Rough In",
+          "Υδραυλικά - Πρώτη Εγκατάσταση"
+        ],
+        "t7": [
+          "HVAC - Ductwork",
+          "Κλιματισμός - Αγωγοί"
+        ],
+        "t8": [
+          "Underfloor Heating",
+          "Κεντρικό Θέρμανση Δαπέδου"
+        ],
+        "t9": [
+          "Floor Screed",
+          "Σκυρόδεμα Δαπέδου"
+        ],
+        "t10": [
+          "Tiling - Floor & Wall",
+          "Ψηφιδωτά - Δάπεδο & Τοίχοι"
+        ],
+        "t11": [
+          "Joinery / Doors Interior",
+          "Ξυλουργική / Εσωτερικές Πόρτες"
+        ],
+        "t12": [
+          "Kitchen Cabinetry",
+          "Κουζίνα"
+        ],
+        "t13": [
+          "Sanitary Ware",
+          "Είδη Υγιεινής"
+        ],
+        "t14": [
+          "Electrical - Fixtures",
+          "Ηλεκτρολογικά - Φωτισμός & Πρίζες"
+        ],
+        "t15": [
+          "Exterior Facade / Painting",
+          "Εξωτερική Πρόσοψη / Βαφή"
+        ],
+        "t16": [
+          "Balcony Railings & Glazing",
+          "Μπαλκονιέρες & Γυαλιά"
+        ],
+        "t17": [
+          "Interior Painting",
+          "Εσωτερική Βαφή"
+        ],
+        "t18": [
+          "Elevator Installation",
+          "Εγκατάσταση Ανελκυστήρα"
+        ],
+        "t19": [
+          "Final Electrical - Fixtures & Switches",
+          "Τελικά Ηλεκτρολογικά - Φωτισμός & Διακόπτες"
+        ],
+        "t20": [
+          "Final Plumbing - Taps & Accessories",
+          "Τελικά Υδραυλικά - Βρύσες & Εξαρτήματα"
+        ],
+        "t21": [
+          "Appliance Installation",
+          "Εγκατάσταση Συσκευών"
+        ],
+        "t22": [
+          "Smart Home / Automation",
+          "Έξυπνο Σπίτι / Αυτοματισμός"
+        ],
+        "t23": [
+          "Final Cleaning",
+          "Τελικός Καθαρισμός"
+        ],
+        "t24": [
+          "Punch List / Snagging",
+          "Λίστα Ελλειμμάτων"
+        ],
+        "t25": [
+          "Inspections / CO",
+          "Έλεγχοι / Άδεια Χρήσης"
+        ],
+        "t26": [
+          "Client Handover",
+          "Παράδοση Πελάτη"
+        ],
+        "t27": [
+          "Post-Handover Defect Liability",
+          "Εγγύηση Μετά την Παράδοση"
+        ]
+      },
+      "secTranslations": [
+        "Domi and Kelyfos",
+        "IM - Mixanologika, Ilektrologika, Ydravlika",
+        "Esoterikes Finistriseis",
+        "Portes, Koufomata and Anoigmata",
+        "Systimata Ktiriou",
+        "Akolouthia Paradosis"
+      ],
+      "milestones": [],
+      "payments": [
+        {
+          "id": "p1",
+          "label": "Deposit (10%)",
+          "amount": null,
+          "due": "2026-01-15",
+          "status": "received",
+          "date": "2026-01-15",
+          "notes": "Initial deposit received"
+        },
+        {
+          "id": "p2",
+          "label": "Second Payment (15%)",
+          "amount": null,
+          "due": "2026-03-30",
+          "status": "pending",
+          "date": null,
+          "notes": "Due at structural completion"
+        },
+        {
+          "id": "p3",
+          "label": "Progress Payment (50%)",
+          "amount": null,
+          "due": "2026-04-15",
+          "status": "pending",
+          "date": null,
+          "notes": "Due at 80% completion"
+        },
+        {
+          "id": "p4",
+          "label": "Final Payment (25%)",
+          "amount": null,
+          "due": "2026-05-01",
+          "status": "pending",
+          "date": null,
+          "notes": "Due at handover"
+        }
+      ],
+      "documents": [],
+      "photos": [],
+      "commLog": [],
+      "purchase": {
+        "price": null,
+        "currency": "EUR",
+        "buyer": "Fatouros / Diakatou",
+        "contractDate": null,
+        "notary": null,
+        "lawyer": null,
+        "status": "pre-contract"
+      },
+      "snagList": [],
+      "customCategories": [],
+      "noteTranslations": {
+        "en": {
+          "action": {
+            "label": "Action Required",
+            "text": "Bathroom fixtures and fittings selection meeting must be scheduled immediately. Critical path for handover."
+          },
+          "paint": {
+            "label": "Pending Decision",
+            "text": "Interior paint colours to be selected by client during bathroom fixtures meeting. 4-day job after windows."
+          },
+          "facade": {
+            "label": "Pending Decision",
+            "text": "Exterior facade: painted finish OR PVC paneling — decision required. Both LEED compatible."
+          },
+          "ev": {
+            "label": "EV Charging",
+            "text": "Dedicated EV charging station included in basement/parking scope."
+          },
+          "smartHome": {
+            "label": "Smart Home",
+            "text": "All smart home items ordered. Configuration session after move-in. Client must be present."
+          },
+          "leed": {
+            "label": "LEED Platinum",
+            "text": "Certification as complete package at end of construction. Energy audits: 6mo, 12mo, 3yr, 5yr."
+          }
+        },
+        "el": {
+          "action": {
+            "label": "Απαιτείται Ενέργεια",
+            "text": "Συνάντηση επιλογής ειδών υγιεινής πρέπει να προγραμματιστεί άμεσα. Κρίσιμη διαδρομή για παράδοση."
+          },
+          "paint": {
+            "label": "Εκκρεμείς Αποφάσεις",
+            "text": "Τα χρώματα εσωτερικής βαφής θα επιλεγούν από τον πελάτη κατά τη συνάντηση. 4 ημέρες μετά τα κουφώματα."
+          },
+          "facade": {
+            "label": "Εκκρεμείς Αποφάσεις",
+            "text": "Εξωτερική πρόσοψη: βαφή ή επένδυση PVC — απαιτείται απόφαση. Συμβατά με LEED Platinum."
+          },
+          "ev": {
+            "label": "Φόρτιση EV",
+            "text": "Αποκλειστικός σταθμός φόρτισης EV στο υπόγειο/πάρκινγκ."
+          },
+          "smartHome": {
+            "label": "Έξυπνο Σπίτι",
+            "text": "Όλα τα στοιχεία έξυπνου σπιτιού παραγγελθέντα. Συνεδρία ρύθμισης μετά τη μετοίκηση. Ο πελάτης πρέπει να είναι παρών."
+          },
+          "leed": {
+            "label": "LEED Platinum",
+            "text": "Πιστοποίηση ως πλήρες πακέτο στο τέλος κατασκευής. Ενεργειακοί έλεγχοι: 6μηνο, 12μηνο, 3ετία, 5ετία."
+          }
+        }
+      }
+    },
+    "p": {
+      "name": "Aetheria",
+      "floor": "6/7",
+      "size_m2": 160,
+      "client": "[CLIENT NAME]",
+      "token": "lm-p-aetheria-2026",
+      "handover": "[TBD]",
+      "handoverDate": null,
+      "notes": {
+        "action": "Bathroom fixtures selection meeting with Fatouros/Diakatou must be scheduled immediately. Critical path for May handover.",
+        "paint": "Interior paint colours to be selected during bathroom fixtures meeting.",
+        "facade": "Exterior facade: painted finish OR PVC paneling - decision required.",
+        "ev": "Dedicated EV charging station included in basement/parking scope.",
+        "smartHome": "All smart home items ordered. Client configuration session required prior to move-in. Client must be present.",
+        "leed": "Certification submitted as complete package at end of construction. Energy audits at 6mo, 12mo, 3yr, 5yr."
+      },
+      "tasks": {
+        "t1": {
+          "st": "complete",
+          "s": "2026-02-08",
+          "e": "2026-02-17",
+          "nt": "Concrete, masonry, openings"
+        },
+        "t2": {
+          "st": "pending",
+          "s": "2026-03-16",
+          "e": "2026-04-03",
+          "nt": "Exterior + balcony + wet areas"
+        },
+        "t16": {
+          "st": "pending",
+          "s": "2026-04-13",
+          "e": "2026-04-20",
+          "nt": "Exalco glass railings"
+        },
+        "t15": {
+          "st": "pending",
+          "s": "2026-05-04",
+          "e": "2026-05-17",
+          "nt": "Painted or PVC - TBD"
+        },
+        "hvac": {
+          "st": "inprogress",
+          "s": "2026-02-25",
+          "e": "2026-03-20",
+          "nt": "UFH, heat pump, FCUs - unblocks flooring"
+        },
+        "hrv": {
+          "st": "inprogress",
+          "s": "2026-02-22",
+          "e": "2026-03-07",
+          "nt": "Ceiling units + ducting"
+        },
+        "t10": {
+          "st": "blocked",
+          "s": "2026-03-27",
+          "e": "2026-04-12",
+          "nt": "After HVAC + flooring"
+        },
+        "t11": {
+          "st": "inprogress",
+          "s": "2026-03-22",
+          "e": "2026-04-07",
+          "nt": "Switches, panels, smart home, lighting"
+        },
+        "t19": {
+          "st": "pending",
+          "s": "2026-04-08",
+          "e": "2026-04-27",
+          "nt": "Smoke, extinguishers, emergency lighting"
+        },
+        "t20": {
+          "st": "pending",
+          "s": "2026-04-08",
+          "e": "2026-05-02",
+          "nt": "Phased - unit complete April"
+        },
+        "t6": {
+          "st": "blocked",
+          "s": "2026-03-15",
+          "e": "2026-03-29",
+          "nt": "After plumbing + electrical rough-in"
+        },
+        "t7": {
+          "st": "pending",
+          "s": "2026-03-27",
+          "e": "2026-04-12",
+          "nt": "After HVAC complete - client chosen"
+        },
+        "t8": {
+          "st": "pending",
+          "s": "2026-04-12",
+          "e": "2026-04-16",
+          "nt": "4 days - after flooring complete"
+        },
+        "t9": {
+          "st": "critical",
+          "s": "2026-04-01",
+          "e": "2026-04-17",
+          "nt": "Selection meeting needed - CRITICAL PATH"
+        },
+        "t14": {
+          "st": "pending",
+          "s": "2026-05-08",
+          "e": "2026-05-12",
+          "nt": "4 days - after windows installed"
+        },
+        "t4": {
+          "st": "pending",
+          "s": "2026-04-08",
+          "e": "2026-04-17",
+          "nt": "Ordered - delivery early April"
+        },
+        "t5": {
+          "st": "pending",
+          "s": "2026-04-14",
+          "e": "2026-04-16",
+          "nt": "Ordered - 2 days install"
+        },
+        "t3": {
+          "st": "pending",
+          "s": "2026-05-04",
+          "e": "2026-05-12",
+          "nt": "Exalco - delivery end April, 5 days"
+        },
+        "t13": {
+          "st": "pending",
+          "s": "2026-05-04",
+          "e": "2026-05-09",
+          "nt": "5 days installation"
+        },
+        "t18": {
+          "st": "inprogress",
+          "s": "2026-02-22",
+          "e": "2026-04-07",
+          "nt": "EV station for Fatouros included"
+        },
+        "t17": {
+          "st": "pending",
+          "s": "2026-05-08",
+          "e": "2026-08-07",
+          "nt": "Lobby, hallways, stairwell"
+        },
+        "pv": {
+          "st": "pending",
+          "s": "2026-06-08",
+          "e": "2026-07-22",
+          "nt": "Does not affect unit delivery"
+        },
+        "pent": {
+          "st": "pending",
+          "s": "2026-04-08",
+          "e": "2026-05-07",
+          "nt": "160sqm maisonette - independent"
+        },
+        "t24": {
+          "st": "pending",
+          "s": "2026-04-27",
+          "e": "2026-05-04",
+          "nt": "1 week prior to handover"
+        },
+        "t23": {
+          "st": "pending",
+          "s": "2026-05-02",
+          "e": "2026-05-07",
+          "nt": "Urban Planning inspector - we schedule"
+        },
+        "t22": {
+          "st": "pending",
+          "s": "2026-06-08",
+          "e": "2026-08-07",
+          "nt": "End of construction - full package"
+        },
+        "t21": {
+          "st": "pending",
+          "s": "2026-05-08",
+          "e": "2026-07-22",
+          "nt": "Phased May-July"
+        }
+      },
+      "milestones": [],
+      "payments": [],
+      "documents": [],
+      "photos": [],
+      "commLog": [],
+      "purchase": {
+        "price": null,
+        "currency": "EUR",
+        "buyer": "[CLIENT NAME]",
+        "contractDate": null,
+        "notary": null,
+        "lawyer": null,
+        "status": "pre-contract"
+      },
+      "snagList": [],
+      "customCategories": [],
+      "noteTranslations": {
+        "en": {
+          "action": {
+            "label": "Action Required",
+            "text": "Bathroom fixtures and fittings selection meeting must be scheduled immediately. Critical path for handover."
+          },
+          "paint": {
+            "label": "Pending Decision",
+            "text": "Interior paint colours to be selected by client during bathroom fixtures meeting. 4-day job after windows."
+          },
+          "facade": {
+            "label": "Pending Decision",
+            "text": "Exterior facade: painted finish OR PVC paneling — decision required. Both LEED compatible."
+          },
+          "ev": {
+            "label": "EV Charging",
+            "text": "Dedicated EV charging station included in basement/parking scope."
+          },
+          "smartHome": {
+            "label": "Smart Home",
+            "text": "All smart home items ordered. Configuration session after move-in. Client must be present."
+          },
+          "leed": {
+            "label": "LEED Platinum",
+            "text": "Certification as complete package at end of construction. Energy audits: 6mo, 12mo, 3yr, 5yr."
+          }
+        },
+        "el": {
+          "action": {
+            "label": "Απαιτείται Ενέργεια",
+            "text": "Συνάντηση επιλογής ειδών υγιεινής πρέπει να προγραμματιστεί άμεσα. Κρίσιμη διαδρομή για παράδοση."
+          },
+          "paint": {
+            "label": "Εκκρεμείς Αποφάσεις",
+            "text": "Τα χρώματα εσωτερικής βαφής θα επιλεγούν από τον πελάτη κατά τη συνάντηση. 4 ημέρες μετά τα κουφώματα."
+          },
+          "facade": {
+            "label": "Εκκρεμείς Αποφάσεις",
+            "text": "Εξωτερική πρόσοψη: βαφή ή επένδυση PVC — απαιτείται απόφαση. Συμβατά με LEED Platinum."
+          },
+          "ev": {
+            "label": "Φόρτιση EV",
+            "text": "Αποκλειστικός σταθμός φόρτισης EV στο υπόγειο/πάρκινγκ."
+          },
+          "smartHome": {
+            "label": "Έξυπνο Σπίτι",
+            "text": "Όλα τα στοιχεία έξυπνου σπιτιού παραγγελθέντα. Συνεδρία ρύθμισης μετά τη μετοίκηση. Ο πελάτης πρέπει να είναι παρών."
+          },
+          "leed": {
+            "label": "LEED Platinum",
+            "text": "Πιστοποίηση ως πλήρες πακέτο στο τέλος κατασκευής. Ενεργειακοί έλεγχοι: 6μηνο, 12μηνο, 3ετία, 5ετία."
+          }
+        }
+      },
+      "translations": {
+        "t1": [
+          "Structural / Shell",
+          "Δομή / Κέλυφος"
+        ],
+        "t2": [
+          "Waterproofing & Insulation",
+          "Υδροστέγανο & Μόνωση"
+        ],
+        "t3": [
+          "Plaster / Mortar",
+          "Κονίαμα / Τσιμεντοκονία"
+        ],
+        "t4": [
+          "Windows & External Doors",
+          "Κουφώματα & Εξωτερικές Πόρτες"
+        ],
+        "t5": [
+          "Electrical - Rough In",
+          "Ηλεκτρολογικά - Πρώτη Εγκατάσταση"
+        ],
+        "t6": [
+          "Plumbing - Rough In",
+          "Υδραυλικά - Πρώτη Εγκατάσταση"
+        ],
+        "t7": [
+          "HVAC - Ductwork",
+          "Κλιματισμός - Αγωγοί"
+        ],
+        "t8": [
+          "Underfloor Heating",
+          "Κεντρικό Θέρμανση Δαπέδου"
+        ],
+        "t9": [
+          "Floor Screed",
+          "Σκυρόδεμα Δαπέδου"
+        ],
+        "t10": [
+          "Tiling - Floor & Wall",
+          "Ψηφιδωτά - Δάπεδο & Τοίχοι"
+        ],
+        "t11": [
+          "Joinery / Doors Interior",
+          "Ξυλουργική / Εσωτερικές Πόρτες"
+        ],
+        "t12": [
+          "Kitchen Cabinetry",
+          "Κουζίνα"
+        ],
+        "t13": [
+          "Sanitary Ware",
+          "Είδη Υγιεινής"
+        ],
+        "t14": [
+          "Electrical - Fixtures",
+          "Ηλεκτρολογικά - Φωτισμός & Πρίζες"
+        ],
+        "t15": [
+          "Exterior Facade / Painting",
+          "Εξωτερική Πρόσοψη / Βαφή"
+        ],
+        "t16": [
+          "Balcony Railings & Glazing",
+          "Μπαλκονιέρες & Γυαλιά"
+        ],
+        "t17": [
+          "Interior Painting",
+          "Εσωτερική Βαφή"
+        ],
+        "t18": [
+          "Elevator Installation",
+          "Εγκατάσταση Ανελκυστήρα"
+        ],
+        "t19": [
+          "Final Electrical - Fixtures & Switches",
+          "Τελικά Ηλεκτρολογικά - Φωτισμός & Διακόπτες"
+        ],
+        "t20": [
+          "Final Plumbing - Taps & Accessories",
+          "Τελικά Υδραυλικά - Βρύσες & Εξαρτήματα"
+        ],
+        "t21": [
+          "Appliance Installation",
+          "Εγκατάσταση Συσκευών"
+        ],
+        "t22": [
+          "Smart Home / Automation",
+          "Έξυπνο Σπίτι / Αυτοματισμός"
+        ],
+        "t23": [
+          "Final Cleaning",
+          "Τελικός Καθαρισμός"
+        ],
+        "t24": [
+          "Punch List / Snagging",
+          "Λίστα Ελλειμμάτων"
+        ],
+        "t25": [
+          "Inspections / CO",
+          "Έλεγχοι / Άδεια Χρήσης"
+        ],
+        "t26": [
+          "Client Handover",
+          "Παράδοση Πελάτη"
+        ],
+        "t27": [
+          "Post-Handover Defect Liability",
+          "Εγγύηση Μετά την Παράδοση"
+        ]
+      }
+    }
+  },
+  "taskWeights": {
+    "t1": 51,
+    "t2": 2,
+    "t3": 1,
+    "t4": 3,
+    "t5": 2,
+    "t6": 2,
+    "t7": 2,
+    "t8": 1,
+    "t9": 1,
+    "t10": 2,
+    "t11": 2,
+    "t12": 2,
+    "t13": 1,
+    "t14": 1,
+    "t15": 2,
+    "t16": 1,
+    "t17": 2,
+    "t18": 4,
+    "t19": 1,
+    "t20": 2,
+    "t21": 1,
+    "t22": 2,
+    "t23": 1,
+    "t24": 1,
+    "t25": 1,
+    "t26": 1,
+    "t27": 1,
+    "hvac": 4,
+    "hrv": 1,
+    "pv": 1,
+    "pent": 1
+  }
+}
