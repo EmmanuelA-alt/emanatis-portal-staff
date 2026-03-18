@@ -413,18 +413,41 @@ var PROCUREMENT_EL = [
 // === INIT ===
 function init(){
   var params = new URLSearchParams(window.location.search);
-  var gaiaMode = params.get('gaia') === '1';
-  window.IS_READONLY = gaiaMode;
+  
+  // Check for unit-specific read-only modes
+  var unitModes = {
+    'gaia': '1a',
+    'harmonia': '1b',
+    'aurora': '2a',
+    'serenity': '2b',
+    'celestia': '3a',
+    'solarus': '3b',
+    'radiance': '4a',
+    'elysium': '4b',
+    'luminara': '5a',
+    'aetheria': 'p'
+  };
+  
+  var targetUnit = null;
+  for(var mode in unitModes){
+    if(params.get(mode) === '1'){
+      targetUnit = unitModes[mode];
+      break;
+    }
+  }
+  
+  window.IS_READONLY = !!targetUnit;
 
   fetch(DATA_URL).then(r=>r.json()).then(data=>{
     DATA = data;
     localStorage.setItem(DATA_KEY, JSON.stringify(DATA));
-    if(gaiaMode){
-      CURRENT_UNIT = '1a';
+    if(targetUnit){
+      CURRENT_UNIT = targetUnit;
       document.body.classList.add('readonly-mode');
-      document.querySelector('h1').textContent = 'Galatsi Residence — Unit 1A Timeline';
-      document.getElementById('hSub').textContent = 'Private Client Portal · Ipeirou 22, Galatsi';
-      renderUnit('1a');
+      var unit = DATA.units[targetUnit];
+      document.querySelector('h1').textContent = 'Galatsi Residence — ' + unit.name + ' Timeline';
+      document.getElementById('hSub').textContent = 'Private Client Portal · Floor ' + unit.floor + ' · ' + (unit.size_m2||'') + ' m²';
+      renderUnit(targetUnit);
     } else {
       populateSelect();
       toast('Loaded');
