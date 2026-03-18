@@ -253,6 +253,15 @@ body.readonly-mode select{display:none!important}
 <div class="drag-tooltip" id="dragTooltip"></div>
 
 <script>
+// PASSWORD PROTECTION
+(function(){
+  var pass = prompt("Enter password:");
+  if(pass !== "emanatis2026"){
+    document.body.innerHTML = "<h1 style="text-align:center;margin-top:200px;color:#fff">Access Denied</h1>";
+    throw new Error("Unauthorized");
+  }
+})();
+
 // === DATA ===
 var DATA = null;
 var CURRENT_UNIT = null;
