@@ -386,32 +386,28 @@ var TASK_ICONS = {
 
 // === PROCUREMENT ITEMS ===
 var PROCUREMENT_EN = [
-  {name:'Windows & Exterior Glazing',note:'Exalco — delivery end April'},
-  {name:'Balcony Railings & Glazing',note:'Exalco — confirmed'},
-  {name:'Kitchen Units & Countertops',note:'Delivery after flooring'},
-  {name:'All Interior Doors',note:'Delivery early April'},
-  {name:'Main Entrance Door',note:'Delivery early April'},
-  {name:'Security Doors',note:'Apartment entry + building'},
-  {name:'Garage Door',note:'Confirmed'},
-  {name:'Storage Unit Doors',note:'Confirmed'},
-  {name:'LED Lighting',note:'Selected & ordered'},
-  {name:'Smart Home Systems',note:'All units ordered'},
-  {name:'Elevator — Kleeman',note:'5-day installation'},
-  {name:'7th Floor Metal Structure',note:'Penthouse — independent scope'}
+  {name:'Windows & Exterior Glazing'},
+  {name:'Balcony Railings & Glazing'},
+  {name:'All Interior Doors'},
+  {name:'Main Entrance Door'},
+  {name:'Security Doors'},
+  {name:'Garage Door'},
+  {name:'Storage Unit Doors'},
+  {name:'LED Lighting'},
+  {name:'Smart Home Systems'},
+  {name:'7th Floor Metal Structure'}
 ];
 var PROCUREMENT_EL = [
-  {name:'Κουφώματα & Εξωτερικό Υαλοστάσιο',note:'Exalco — παράδοση τέλος Απριλίου'},
-  {name:'Κάγκελα Μπαλκονιού & Τζάμι',note:'Exalco — επιβεβαιωμένο'},
-  {name:'Κουζίνα & Πάγκοι',note:'Παράδοση μετά τα δάπεδα'},
-  {name:'Όλες οι Εσωτερικές Πόρτες',note:'Παράδοση αρχές Απριλίου'},
-  {name:'Κεντρική Πόρτα Εισόδου',note:'Παράδοση αρχές Απριλίου'},
-  {name:'Πόρτες Ασφαλείας',note:'Είσοδος διαμερίσματος + κτιρίου'},
-  {name:'Πόρτα Γκαράζ',note:'Επιβεβαιωμένο'},
-  {name:'Πόρτες Χώρου Αποθήκευσης',note:'Επιβεβαιωμένο'},
-  {name:'Φωτισμός LED',note:'Επιλεγμένο & παραγγελμένο'},
-  {name:'Συστήματα Έξυπνου Σπιτιού',note:'Όλα παραγγελμένα'},
-  {name:'Ανελκυστήρας — Kleeman',note:'Εγκατάσταση 5 ημερών'},
-  {name:'Μεταλλική Κατασκευή 7ου Ορόφου',note:'Penthouse — ανεξάρτητο'}
+  {name:'Κουφώματα & Εξωτερικό Υαλοστάσιο'},
+  {name:'Κάγκελα Μπαλκονιού & Τζάμι'},
+  {name:'Όλες οι Εσωτερικές Πόρτες'},
+  {name:'Κεντρική Πόρτα Εισόδου'},
+  {name:'Πόρτες Ασφαλείας'},
+  {name:'Πόρτα Γκαράζ'},
+  {name:'Πόρτες Χώρου Αποθήκευσης'},
+  {name:'Φωτισμός LED'},
+  {name:'Συστήματα Έξυπνου Σπιτιού'},
+  {name:'Μεταλλική Κατασκευή 7ου Ορόφου'}
 ];
 
 // === INIT ===
@@ -487,7 +483,7 @@ function renderUnit(uid){
   html += '<div class="procurement-header"><div><div class="procurement-title">'+(LANG==='el'?'Κατάσταση Προμήθειας':'Procurement Status')+'</div><div class="procurement-sub">'+(LANG==='el'?'Όλα παραγγελμένα, επιβεβαιωμένα & σε παραγωγή':'All items ordered, confirmed & in production')+'</div></div><div class="procurement-badge">'+PROCUREMENT.length+' Items Ordered</div></div>';
   html += '<div class="procurement-items">';
   PROCUREMENT.forEach(p=>{
-    html += '<div class="procurement-item"><div class="procurement-check">✓</div><div><div class="procurement-item-name">'+p.name+'</div><div class="procurement-item-note">'+p.note+'</div></div></div>';
+    html += '<div class="procurement-item"><div class="procurement-check">✓</div><div class="procurement-item-name">'+p.name+'</div></div>';
   });
   html += '</div></div>';
 
