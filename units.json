@@ -200,7 +200,7 @@
       "name": "Gaia",
       "floor": "1",
       "size_m2": 63,
-      "client": "Artemis Kokorogianni",
+      "client": "",
       "token": "lm-1a-gaia-2026",
       "handover": "Mid-Sept.",
       "handoverDate": "2026-09-19",
@@ -2027,179 +2027,178 @@
       "name": "Solarus",
       "floor": "3",
       "size_m2": 99,
-      "client": "[CLIENT NAME]",
+      "client": "Kostas & Sophia Bredakis",
       "token": "lm-3b-solarus-2026",
-      "handover": "[TBD]",
-      "handoverDate": null,
+      "handover": "15 Oct 2026",
+      "handoverDate": "2026-10-15",
       "notes": {
-        "action": "Bathroom fixtures selection meeting with Fatouros/Diakatou must be scheduled immediately. Critical path for May handover.",
-        "paint": "Interior paint colours to be selected during bathroom fixtures meeting.",
-        "facade": "Exterior facade: painted finish OR PVC paneling - decision required.",
-        "ev": "Dedicated EV charging station included in basement/parking scope.",
         "smartHome": "All smart home items ordered. Client configuration session required prior to move-in. Client must be present.",
-        "leed": "Certification submitted as complete package at end of construction. Energy audits at 6mo, 12mo, 3yr, 5yr."
+        "leed": "Certification submitted as complete package at end of construction. Energy audits at 6mo, 12mo, 3yr, 5yr.",
+        "kitchenselectionrequ": "Client must choose kitchen as soon as possible due to the 2 to 3 month delivery time required from manufacturer",
+        "action": "Bathroom fixtures selection required",
+        "paint": "Interior paint colours to be selected during bathroom fixtures meeting."
       },
       "tasks": {
         "t1": {
           "st": "complete",
-          "s": "2026-02-08",
-          "e": "2026-02-17",
+          "s": "2025-12-22",
+          "e": "2026-03-09",
           "nt": "Concrete, masonry, openings"
         },
         "t2": {
           "st": "pending",
-          "s": "2026-03-16",
-          "e": "2026-04-03",
+          "s": "2026-06-30",
+          "e": "2026-08-12",
           "nt": "Exterior + balcony + wet areas"
         },
         "t16": {
           "st": "pending",
-          "s": "2026-04-13",
-          "e": "2026-04-20",
+          "s": "2026-07-12",
+          "e": "2026-09-03",
           "nt": "Exalco glass railings"
         },
         "t15": {
           "st": "pending",
-          "s": "2026-05-04",
-          "e": "2026-05-17",
+          "s": "2026-08-25",
+          "e": "2026-10-06",
           "nt": "Painted or PVC - TBD"
         },
         "hvac": {
           "st": "inprogress",
           "s": "2026-02-25",
-          "e": "2026-03-20",
+          "e": "2026-05-12",
           "nt": "UFH, heat pump, FCUs - unblocks flooring"
         },
         "hrv": {
           "st": "inprogress",
-          "s": "2026-02-22",
-          "e": "2026-03-07",
+          "s": "2026-02-21",
+          "e": "2026-04-25",
           "nt": "Ceiling units + ducting"
         },
         "t10": {
           "st": "blocked",
-          "s": "2026-03-27",
-          "e": "2026-04-12",
+          "s": "2026-06-24",
+          "e": "2026-08-08",
           "nt": "After HVAC + flooring"
         },
         "t11": {
           "st": "inprogress",
-          "s": "2026-03-22",
-          "e": "2026-04-07",
+          "s": "2026-06-20",
+          "e": "2026-08-24",
           "nt": "Switches, panels, smart home, lighting"
         },
         "t19": {
           "st": "pending",
-          "s": "2026-04-08",
-          "e": "2026-04-27",
+          "s": "2026-07-10",
+          "e": "2026-08-20",
           "nt": "Smoke, extinguishers, emergency lighting"
         },
         "t20": {
           "st": "pending",
-          "s": "2026-04-08",
-          "e": "2026-05-02",
+          "s": "2026-06-09",
+          "e": "2026-08-19",
           "nt": "Phased - unit complete April"
         },
         "t6": {
           "st": "blocked",
-          "s": "2026-03-15",
-          "e": "2026-03-29",
+          "s": "2026-05-23",
+          "e": "2026-07-01",
           "nt": "After plumbing + electrical rough-in"
         },
         "t7": {
           "st": "pending",
-          "s": "2026-03-27",
-          "e": "2026-04-12",
+          "s": "2026-06-24",
+          "e": "2026-07-23",
           "nt": "After HVAC complete - client chosen"
         },
         "t8": {
           "st": "pending",
-          "s": "2026-04-12",
-          "e": "2026-04-16",
+          "s": "2026-08-31",
+          "e": "2026-09-14",
           "nt": "4 days - after flooring complete"
         },
         "t9": {
           "st": "critical",
-          "s": "2026-04-01",
-          "e": "2026-04-17",
+          "s": "2026-07-04",
+          "e": "2026-07-29",
           "nt": "Selection meeting needed - CRITICAL PATH"
         },
         "t14": {
           "st": "pending",
-          "s": "2026-05-08",
-          "e": "2026-05-12",
+          "s": "2026-06-30",
+          "e": "2026-08-13",
           "nt": "4 days - after windows installed"
         },
         "t4": {
           "st": "pending",
-          "s": "2026-04-08",
-          "e": "2026-04-17",
+          "s": "2026-05-29",
+          "e": "2026-06-21",
           "nt": "Ordered - delivery early April"
         },
         "t5": {
           "st": "pending",
-          "s": "2026-04-14",
-          "e": "2026-04-16",
+          "s": "2026-07-19",
+          "e": "2026-08-01",
           "nt": "Ordered - 2 days install"
         },
         "t3": {
           "st": "pending",
-          "s": "2026-05-04",
-          "e": "2026-05-12",
+          "s": "2026-06-30",
+          "e": "2026-08-17",
           "nt": "Exalco - delivery end April, 5 days"
         },
         "t13": {
           "st": "pending",
-          "s": "2026-05-04",
-          "e": "2026-05-09",
+          "s": "2026-09-12",
+          "e": "2026-10-09",
           "nt": "5 days installation"
         },
         "t18": {
           "st": "inprogress",
-          "s": "2026-02-22",
-          "e": "2026-04-07",
+          "s": "2026-04-29",
+          "e": "2026-06-12",
           "nt": "EV station for Fatouros included"
         },
         "t17": {
           "st": "pending",
           "s": "2026-05-08",
-          "e": "2026-08-07",
+          "e": "2026-10-26",
           "nt": "Lobby, hallways, stairwell"
         },
         "pv": {
           "st": "pending",
-          "s": "2026-06-08",
-          "e": "2026-07-22",
+          "s": "2026-09-13",
+          "e": "2026-10-27",
           "nt": "Does not affect unit delivery"
         },
         "pent": {
           "st": "pending",
-          "s": "2026-04-08",
-          "e": "2026-05-07",
+          "s": "2026-05-29",
+          "e": "2026-06-27",
           "nt": "160sqm maisonette - independent"
         },
         "t24": {
           "st": "pending",
-          "s": "2026-04-27",
-          "e": "2026-05-04",
+          "s": "2026-09-09",
+          "e": "2026-09-25",
           "nt": "1 week prior to handover"
         },
         "t23": {
           "st": "pending",
-          "s": "2026-05-02",
-          "e": "2026-05-07",
+          "s": "2026-09-01",
+          "e": "2026-09-16",
           "nt": "Urban Planning inspector - we schedule"
         },
         "t22": {
           "st": "pending",
           "s": "2026-06-08",
-          "e": "2026-08-07",
+          "e": "2026-12-04",
           "nt": "End of construction - full package"
         },
         "t21": {
           "st": "pending",
-          "s": "2026-05-08",
-          "e": "2026-07-22",
+          "s": "2026-06-25",
+          "e": "2026-11-21",
           "nt": "Phased May-July"
         }
       },
@@ -2382,7 +2381,22 @@
           "Post-Handover Defect Liability",
           "Εγγύηση Μετά την Παράδοση"
         ]
-      }
+      },
+      "_noteMeta": {
+        "action": {
+          "label": "action",
+          "type": "action"
+        },
+        "kitchenselectionrequ": {
+          "label": "Kitchen Selection Required",
+          "type": "action"
+        },
+        "paint": {
+          "label": "paint",
+          "type": "warning"
+        }
+      },
+      "email": "bredakis.costas@gmail.com"
     },
     "4a": {
       "name": "Radiance",
@@ -3112,8 +3126,8 @@
       "size_m2": 108,
       "client": "Fatouros / Diakatou",
       "token": "lm-5a-fatouros-2026",
-      "handover": "Early May 2026",
-      "handoverDate": "2026-05-04",
+      "handover": "15 Aug 2026",
+      "handoverDate": "2026-08-15",
       "notes": {
         "action": "Bathroom fixtures selection meeting with Fatouros/Diakatou must be scheduled immediately. Critical path for May handover.",
         "paint": "Interior paint colours to be selected during bathroom fixtures meeting.",
@@ -3131,158 +3145,158 @@
         },
         "t2": {
           "st": "pending",
-          "s": "2026-03-13",
-          "e": "2026-03-31",
+          "s": "2026-06-30",
+          "e": "2026-08-06",
           "nt": "Exterior + balcony + wet areas"
         },
         "t16": {
           "st": "pending",
-          "s": "2026-04-13",
-          "e": "2026-04-20",
+          "s": "2026-07-18",
+          "e": "2026-07-31",
           "nt": "Exalco glass railings"
         },
         "t15": {
           "st": "pending",
-          "s": "2026-05-04",
-          "e": "2026-05-17",
+          "s": "2026-07-24",
+          "e": "2026-08-06",
           "nt": "Painted or PVC - TBD"
         },
         "hvac": {
           "st": "inprogress",
-          "s": "2026-02-25",
-          "e": "2026-03-20",
+          "s": "2026-02-17",
+          "e": "2026-05-17",
           "nt": "UFH, heat pump, FCUs - unblocks flooring"
         },
         "hrv": {
           "st": "inprogress",
-          "s": "2026-02-22",
-          "e": "2026-03-07",
+          "s": "2026-03-06",
+          "e": "2026-04-25",
           "nt": "Ceiling units + ducting"
         },
         "t10": {
           "st": "blocked",
-          "s": "2026-03-27",
-          "e": "2026-04-12",
+          "s": "2026-05-15",
+          "e": "2026-05-31",
           "nt": "After HVAC + flooring"
         },
         "t11": {
           "st": "inprogress",
-          "s": "2026-03-22",
-          "e": "2026-04-07",
+          "s": "2026-05-27",
+          "e": "2026-06-12",
           "nt": "Switches, panels, smart home, lighting"
         },
         "t19": {
           "st": "pending",
-          "s": "2026-04-08",
-          "e": "2026-04-27",
+          "s": "2026-06-08",
+          "e": "2026-07-16",
           "nt": "Smoke, extinguishers, emergency lighting"
         },
         "t20": {
           "st": "pending",
-          "s": "2026-04-08",
-          "e": "2026-05-02",
+          "s": "2026-07-20",
+          "e": "2026-08-13",
           "nt": "Phased - unit complete April"
         },
         "t6": {
           "st": "blocked",
-          "s": "2026-03-15",
-          "e": "2026-03-29",
+          "s": "2026-05-21",
+          "e": "2026-06-04",
           "nt": "After plumbing + electrical rough-in"
         },
         "t7": {
           "st": "pending",
-          "s": "2026-03-27",
-          "e": "2026-04-12",
+          "s": "2026-05-21",
+          "e": "2026-06-06",
           "nt": "After HVAC complete - client chosen"
         },
         "t8": {
           "st": "pending",
-          "s": "2026-04-12",
-          "e": "2026-04-16",
+          "s": "2026-07-23",
+          "e": "2026-08-01",
           "nt": "4 days - after flooring complete"
         },
         "t9": {
           "st": "critical",
-          "s": "2026-04-01",
-          "e": "2026-04-17",
+          "s": "2026-06-06",
+          "e": "2026-06-22",
           "nt": "Selection meeting needed - CRITICAL PATH"
         },
         "t14": {
           "st": "pending",
-          "s": "2026-05-08",
-          "e": "2026-05-12",
+          "s": "2026-06-30",
+          "e": "2026-07-11",
           "nt": "4 days - after windows installed"
         },
         "t4": {
           "st": "pending",
-          "s": "2026-04-08",
-          "e": "2026-04-17",
+          "s": "2026-06-30",
+          "e": "2026-07-09",
           "nt": "Ordered - delivery early April"
         },
         "t5": {
           "st": "pending",
-          "s": "2026-04-14",
-          "e": "2026-04-16",
+          "s": "2026-06-30",
+          "e": "2026-07-14",
           "nt": "Ordered - 2 days install"
         },
         "t3": {
           "st": "pending",
-          "s": "2026-05-04",
-          "e": "2026-05-12",
+          "s": "2026-06-30",
+          "e": "2026-07-25",
           "nt": "Exalco - delivery end April, 5 days"
         },
         "t13": {
           "st": "pending",
-          "s": "2026-05-04",
-          "e": "2026-05-09",
+          "s": "2026-08-09",
+          "e": "2026-08-20",
           "nt": "5 days installation"
         },
         "t18": {
           "st": "inprogress",
           "s": "2026-02-22",
-          "e": "2026-04-07",
+          "e": "2026-06-01",
           "nt": "EV station for Fatouros included"
         },
         "t17": {
           "st": "pending",
-          "s": "2026-05-08",
-          "e": "2026-08-07",
+          "s": "2026-06-26",
+          "e": "2026-09-25",
           "nt": "Lobby, hallways, stairwell"
         },
         "pv": {
           "st": "pending",
-          "s": "2026-06-08",
-          "e": "2026-07-22",
+          "s": "2026-09-21",
+          "e": "2026-11-04",
           "nt": "Does not affect unit delivery"
         },
         "pent": {
           "st": "pending",
-          "s": "2026-04-08",
-          "e": "2026-05-07",
+          "s": "2026-05-02",
+          "e": "2026-05-31",
           "nt": "160sqm maisonette - independent"
         },
         "t24": {
           "st": "pending",
-          "s": "2026-04-27",
-          "e": "2026-05-04",
+          "s": "2026-08-30",
+          "e": "2026-09-09",
           "nt": "1 week prior to handover"
         },
         "t23": {
           "st": "pending",
-          "s": "2026-05-02",
-          "e": "2026-05-07",
+          "s": "2026-08-23",
+          "e": "2026-08-31",
           "nt": "Urban Planning inspector - we schedule"
         },
         "t22": {
           "st": "pending",
-          "s": "2026-06-08",
-          "e": "2026-08-07",
+          "s": "2026-07-07",
+          "e": "2026-11-02",
           "nt": "End of construction - full package"
         },
         "t21": {
           "st": "pending",
-          "s": "2026-05-08",
-          "e": "2026-07-22",
+          "s": "2026-08-16",
+          "e": "2026-10-30",
           "nt": "Phased May-July"
         }
       },

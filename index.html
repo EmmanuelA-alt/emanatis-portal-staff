@@ -281,7 +281,7 @@ var DATA = null;
 var CURRENT_UNIT = null;
 var EDITING_TASK = null;
 var EDITING_NOTE = null;
-var DATA_URL = 'galatsi-residence-units.json';
+var DATA_URL = 'units.json';
 var DATA_KEY = 'galatsi-residence-data';
 var LANG = 'en';
 
@@ -713,9 +713,42 @@ function deleteNote(){
 // === SAVE/LOAD ===
 function autoSave(){ try{ localStorage.setItem(DATA_KEY, JSON.stringify(DATA)); }catch(e){} }
 function saveData(){
-  fetch('/api/save',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(DATA)})
-  .then(r=>r.json()).then(res=>{ if(res.error) toast('Save failed: '+res.error, true); else toast('Saved to server'); })
-  .catch(()=>{ toast('Server unavailable — saved locally', true); autoSave(); });
+  var GH_REPO = 'EmmanuelA-alt/emanatis-portal';
+  var GH_DATA_PATH = 'units.json';
+  var token = localStorage.getItem('gh_save_token');
+  if(!token){
+    token = prompt('Enter your GitHub Personal Access Token (with repo scope).\nThis will be stored in your browser only.\nGet one at: github.com/settings/tokens');
+    if(!token) return;
+    localStorage.setItem('gh_save_token', token);
+  }
+  var api = 'https://api.github.com/repos/' + GH_REPO + '/contents/' + GH_DATA_PATH;
+  var content = btoa(unescape(encodeURIComponent(JSON.stringify(DATA, null, 2))));
+  fetch(api, {headers: {'Authorization': 'token ' + token}})
+    .then(function(r){ return r.json(); })
+    .then(function(existing){
+      var body = {
+        message: 'auto: save timeline (staff) — ' + new Date().toISOString().slice(0,16),
+        content: content,
+        sha: existing.sha
+      };
+      return fetch(api, {
+        method: 'PUT',
+        headers: {'Authorization': 'token ' + token, 'Content-Type': 'application/json'},
+        body: JSON.stringify(body)
+      });
+    })
+    .then(function(r){
+      if(!r.ok) return r.json().then(function(e){ throw new Error(e.message || 'Save failed'); });
+      return r.json();
+    })
+    .then(function(){
+      localStorage.setItem(DATA_KEY, JSON.stringify(DATA));
+      toast('✓ Saved to GitHub');
+    })
+    .catch(function(err){
+      toast('GitHub save failed: ' + err.message, true);
+      localStorage.removeItem('gh_save_token');
+    });
 }
 function exportJSON(){
   var blob = new Blob([JSON.stringify(DATA,null,2)],{type:'application/json'});
