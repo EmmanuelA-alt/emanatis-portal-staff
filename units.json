@@ -278,10 +278,10 @@
           "nt": "Painted or PVC - TBD"
         },
         "hvac": {
-          "st": "complete",
+          "st": "inprogress",
           "s": "2026-03-03",
           "e": "2026-04-27",
-          "nt": "UFH pipes, heat pump, FCUs — rough-in complete"
+          "nt": "UFH, heat pump, FCUs - unblocks flooring"
         },
         "hrv": {
           "st": "inprogress",
@@ -661,10 +661,10 @@
           "nt": "Painted or PVC - TBD"
         },
         "hvac": {
-          "st": "complete",
+          "st": "inprogress",
           "s": "2026-02-25",
           "e": "2026-03-20",
-          "nt": "UFH pipes, heat pump, FCUs — rough-in complete"
+          "nt": "UFH, heat pump, FCUs - unblocks flooring"
         },
         "hrv": {
           "st": "inprogress",
@@ -1022,10 +1022,10 @@
           "nt": "Painted or PVC - TBD"
         },
         "hvac": {
-          "st": "complete",
+          "st": "inprogress",
           "s": "2026-02-25",
           "e": "2026-03-20",
-          "nt": "UFH pipes, heat pump, FCUs — rough-in complete"
+          "nt": "UFH, heat pump, FCUs - unblocks flooring"
         },
         "hrv": {
           "st": "inprogress",
@@ -1383,10 +1383,10 @@
           "nt": "Painted or PVC - TBD"
         },
         "hvac": {
-          "st": "complete",
+          "st": "inprogress",
           "s": "2026-02-25",
           "e": "2026-03-20",
-          "nt": "UFH pipes, heat pump, FCUs — rough-in complete"
+          "nt": "UFH, heat pump, FCUs - unblocks flooring"
         },
         "hrv": {
           "st": "inprogress",
@@ -1744,10 +1744,10 @@
           "nt": "Painted or PVC - TBD"
         },
         "hvac": {
-          "st": "complete",
+          "st": "inprogress",
           "s": "2026-02-25",
           "e": "2026-03-20",
-          "nt": "UFH pipes, heat pump, FCUs — rough-in complete"
+          "nt": "UFH, heat pump, FCUs - unblocks flooring"
         },
         "hrv": {
           "st": "inprogress",
@@ -2104,10 +2104,10 @@
           "nt": "Painted or PVC - TBD"
         },
         "hvac": {
-          "st": "complete",
+          "st": "inprogress",
           "s": "2026-02-25",
           "e": "2026-05-12",
-          "nt": "UFH pipes, heat pump, FCUs — rough-in complete"
+          "nt": "UFH, heat pump, FCUs - unblocks flooring"
         },
         "hrv": {
           "st": "inprogress",
@@ -2480,10 +2480,10 @@
           "nt": "Painted or PVC - TBD"
         },
         "hvac": {
-          "st": "complete",
+          "st": "inprogress",
           "s": "2026-02-25",
           "e": "2026-03-20",
-          "nt": "UFH pipes, heat pump, FCUs — rough-in complete"
+          "nt": "UFH, heat pump, FCUs - unblocks flooring"
         },
         "hrv": {
           "st": "inprogress",
@@ -2841,10 +2841,10 @@
           "nt": "Painted or PVC - TBD"
         },
         "hvac": {
-          "st": "complete",
+          "st": "inprogress",
           "s": "2026-02-25",
           "e": "2026-03-20",
-          "nt": "UFH pipes, heat pump, FCUs — rough-in complete"
+          "nt": "UFH, heat pump, FCUs - unblocks flooring"
         },
         "hrv": {
           "st": "inprogress",
@@ -3212,10 +3212,10 @@
           "nt": "Painted and/or PVC"
         },
         "hvac": {
-          "st": "complete",
+          "st": "inprogress",
           "s": "2026-02-17",
           "e": "2026-03-29",
-          "nt": "UFH pipes, heat pump, FCUs — rough-in complete",
+          "nt": "UFH, heat pump, FCUs - unblocks flooring",
           "segments": [
             {
               "s": "2026-02-17",
@@ -3245,9 +3245,23 @@
         },
         "t11": {
           "st": "inprogress",
-          "s": "2026-05-27",
-          "e": "2026-06-12",
-          "nt": "Switches, panels, smart home, lighting"
+          "s": "2026-01-24",
+          "e": "2026-04-30",
+          "nt": "Switches, panels, smart home, lighting",
+          "segments": [
+            {
+              "s": "2026-01-24",
+              "e": "2026-04-30"
+            },
+            {
+              "s": "2026-06-15",
+              "e": "2026-07-31"
+            },
+            {
+              "s": "2026-09-01",
+              "e": "2026-09-20"
+            }
+          ]
         },
         "t19": {
           "st": "pending",
@@ -3318,7 +3332,7 @@
         "t18": {
           "st": "inprogress",
           "s": "2026-02-22",
-          "e": "2026-06-01",
+          "e": "2026-06-14",
           "nt": "EV station for Fatouros included"
         },
         "t17": {
@@ -3745,10 +3759,10 @@
           "nt": "Painted or PVC - TBD"
         },
         "hvac": {
-          "st": "complete",
+          "st": "inprogress",
           "s": "2026-02-25",
           "e": "2026-03-20",
-          "nt": "UFH pipes, heat pump, FCUs — rough-in complete"
+          "nt": "UFH, heat pump, FCUs - unblocks flooring"
         },
         "hrv": {
           "st": "inprogress",
@@ -4097,5 +4111,6 @@
     "hrv": 1,
     "pv": 1,
     "pent": 1
-  }
+  },
+  "_lastSaved": "2026-05-18T08:57:55.927Z"
 }
